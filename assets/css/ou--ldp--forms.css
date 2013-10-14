@@ -32,19 +32,19 @@ top:0;
 border-radius: 5px 5px 5px 5px;
 }
 
-.ldpforms input.text, .ldpforms textarea, .ldpforms select.select{
+.ldp--forms input.text, .ldp--forms textarea, .ldp--forms select.select{
 color: #333333;
 font-style: normal;
 font-weight: normal;
 
 }
-.ldpforms label {
+.ldp--forms label {
 color: #444444;
 font-style: normal;
 font-weight: bold;
 }
 
-.ldpforms input.checkbox, .ldpforms input.radio {
+.ldp--forms input.checkbox, .ldp--forms input.radio {
 display: block;
 height: 13px;
 margin: 4px 0 0;
