@@ -1,0 +1,288 @@
+.error {
+background-color:#ab0000;
+background-image:none;
+color:#ffffff;
+font-size:12px;
+font-weight:bold;
+margin-top:10px;
+padding:10px;
+line-height:20px;
+text-transform:uppercase;
+
+position:relative;
+top:0;
+
+-moz-border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+border-radius: 5px 5px 5px 5px;
+}
+.success {
+background-color:#ABAF00;
+color:#ffffff;
+font-size:12px;
+font-weight:bold;
+margin-top:10px;
+padding:10px;
+line-height:20px;
+text-transform:uppercase;
+position:relative;
+top:0;
+-moz-border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+border-radius: 5px 5px 5px 5px;
+}
+
+.ldpforms input.text, .ldpforms textarea, .ldpforms select.select{
+color: #333333;
+font-style: normal;
+font-weight: normal;
+
+}
+.ldpforms label {
+color: #444444;
+font-style: normal;
+font-weight: bold;
+}
+
+.ldpforms input.checkbox, .ldpforms input.radio {
+display: block;
+height: 13px;
+margin: 4px 0 0;
+padding: 0;
+width: 13px;
+}
+.spanerror{
+background-color:#FFDFD0;display:block;padding:4px;
+-moz-border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+border-radius: 5px 5px 5px 5px;
+}
+.errmsg{
+color:#AB0000;
+}
+
+.ldp--forms label {font-weight:bold;}
+
+.ldp--forms {
+  margin: 0 0 18px;
+}
+/*
+.ldp--forms fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*/
+.ldp--forms fieldset {
+padding: 0;
+margin-bottom: 22px;
+border: 1px solid #e5e5e5;
+border-left: none;
+border-right: none;
+}
+
+.ldp--forms legend {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: -15px;
+  font-size: 19.5px;
+  line-height: 36px;
+  color: #333333;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+/*
+.ldp--forms legend {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 27px;
+  font-size: 19.5px;
+  line-height: 36px;
+  color: #333333;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+*/
+
+
+
+.ldp--forms legend small {
+  font-size: 13.5px;
+  color: #999999;
+}
+.ldp--forms label,
+.ldp--forms input,
+.ldp--forms button,
+.ldp--forms select,
+.ldp--forms textarea {
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 18px;
+}
+.ldp--forms input,
+.ldp--forms button,
+.ldp--forms select,
+textarea {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.ldp--forms label {
+  display: block;
+  margin-bottom: 5px;
+}
+.ldp--forms select,
+.ldp--forms textarea,
+.ldp--forms input[type="text"],
+.ldp--forms input[type="password"],
+.ldp--forms input[type="datetime"],
+.ldp--forms input[type="datetime-local"],
+.ldp--forms input[type="date"],
+.ldp--forms input[type="month"],
+.ldp--forms input[type="time"],
+.ldp--forms input[type="week"],
+.ldp--forms input[type="number"],
+.ldp--forms input[type="email"],
+.ldp--forms input[type="url"],
+.ldp--forms input[type="search"],
+.ldp--forms input[type="tel"],
+.ldp--forms input[type="color"],
+.uneditable-input {
+  display: inline-block;
+  height: 18px;
+  padding: 4px;
+  margin-bottom: 9px;
+  font-size: 13px;
+  line-height: 18px;
+  color: #555555;
+}
+/*
+.ldp--forms input,
+.ldp--forms textarea {
+  width: 210px;
+}
+
+*/
+.ldp--forms textarea {
+  height: auto;
+}
+.ldp--forms textarea,
+.ldp--forms input[type="text"],
+.ldp--forms input[type="password"],
+.ldp--forms input[type="datetime"],
+.ldp--forms input[type="datetime-local"],
+.ldp--forms input[type="date"],
+.ldp--forms input[type="month"],
+.ldp--forms input[type="time"],
+.ldp--forms input[type="week"],
+.ldp--forms input[type="number"],
+.ldp--forms input[type="email"],
+.ldp--forms input[type="url"],
+.ldp--forms input[type="search"],
+.ldp--forms input[type="tel"],
+.ldp--forms input[type="color"],
+.uneditable-input {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -ms-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+  transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+.ldp--forms textarea:focus,
+.ldp--forms input[type="text"]:focus,
+.ldp--forms input[type="password"]:focus,
+.ldp--forms input[type="datetime"]:focus,
+.ldp--forms input[type="datetime-local"]:focus,
+.ldp--forms input[type="date"]:focus,
+.ldp--forms input[type="month"]:focus,
+.ldp--forms input[type="time"]:focus,
+.ldp--forms input[type="week"]:focus,
+.ldp--forms input[type="number"]:focus,
+.ldp--forms input[type="email"]:focus,
+.ldp--forms input[type="url"]:focus,
+.ldp--forms input[type="search"]:focus,
+.ldp--forms input[type="tel"]:focus,
+.ldp--forms input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: rgba(82, 168, 236, 0.8);
+  outline: 0;
+  outline: thin dotted \9;
+  /* IE6-9 */
+
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+  -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+}
+.ldp--forms input[type="radio"],
+.ldp--forms input[type="checkbox"] {
+  margin: 3px 12px 3px 0;
+  *margin-top: 0;
+  /* IE7 */
+
+  line-height: normal;
+  cursor: pointer;
+}
+.ldp--forms input[type="submit"],
+.ldp--forms input[type="reset"],
+.ldp--forms input[type="button"],
+.ldp--forms input[type="radio"],
+.ldp--forms input[type="checkbox"] {
+  width: auto;
+}
+.uneditable-textarea {
+  width: auto;
+  height: auto;
+}
+.ldp--forms select,
+.ldp--forms input[type="file"] {
+  height: 28px;
+  /* In IE7, the height of the select element cannot be changed by height, only font-size */
+
+  *margin-top: 4px;
+  /* For IE7, add top margin to align select with labels */
+
+  line-height: 28px;
+}
+.ldp--forms select {
+  width: 220px;
+  border: 1px solid #bbb;
+}
+.ldp--forms select[multiple],
+.ldp--forms select[size] {
+  height: auto;
+}
+.ldp--forms select:focus,
+.ldp--forms input[type="file"]:focus,
+.ldp--forms input[type="radio"]:focus,
+.ldp--forms input[type="checkbox"]:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+.ldp--forms input[class*="span"],
+.ldp--forms select[class*="span"],
+.ldp--forms textarea[class*="span"],
+.uneditable-input[class*="span"],
+.row-fluid input[class*="span"],
+.row-fluid select[class*="span"],
+.row-fluid textarea[class*="span"],
+.row-fluid .uneditable-input[class*="span"] {
+  float: none;
+  margin-left: 0;
+}
+
+
+.ldp--forms input,
+.ldp--forms textarea,
+.uneditable-input {
+  margin-left: 0;
+}
