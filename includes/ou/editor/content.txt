@@ -1,0 +1,3 @@
+.pagetitle	Pagetitle	block
+.acc	accessibility 
+.type	Type

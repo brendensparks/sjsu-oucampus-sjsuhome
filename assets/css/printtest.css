@@ -1,0 +1,503 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background:white; 
+	font-family:Verdana, Geneva, sans-serif; 
+	color:#666666;
+	 width: 660px;
+	}
+	
+/* @group Web Font */
+@font-face {
+    font-family: 'AbsaraSansOT-bold';
+    src: url('/sjsuhome/assets/fonts/AbsaraSansOT-Bold.eot');
+    src: url('/sjsuhome/assets/fonts/AbsaraSansOT-Bold.eot?#iefix') format('embedded-opentype'),
+         url('/sjsuhome/assets/fonts/AbsaraSansOT-Bold.woff') format('woff'),
+         url('/sjsuhome/assets/fonts/AbsaraSansOT-Bold.ttf') format('truetype'),
+         url('/sjsuhome/assets/fonts/AbsaraSansOT-Bold.svg#') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+/* @end */	
+	
+/* Sets up margins and content for printing */
+#bg {
+	width: auto; 
+	margin: 0 5%;
+	padding: 0; 
+	border: 0;
+	float: none !important;
+	color: 4d4d4d; 
+	background: transparent;
+	}
+	
+.content_wrapper{
+	margin:0px;
+	padding-bottom:2em;	
+}	
+
+.left{
+	padding-top: -10px;	
+}
+
+/*Adds spacing to top of images */
+img{
+	margin-top: 10px;		
+}
+
+/*Styling for links in main content area */
+.content_wrapper a:link, .content_wrapper a:visited, #content a:link, #content a:visited {
+	text-decoration: none;
+	color:#000;		
+}
+
+/*Breadcrumb styling */
+#breadcrumb {
+  display:block;
+}
+
+#breadcrumb .left {
+  color:#939598;
+  display:block;
+  font:italic normal normal 9px/10px Verdana, Geneva, sans-serif;
+}
+
+#breadcrumb .left a:link,#breadcrumb .left a:visited {
+  color:#939598;
+  text-decoration: none;
+}
+		
+/*Hide elements for printing purposes */
+nav#home, nav#subsitenav, #top_home .right, .v3 .right, nav ul#homenav li.quick-links, #quickicons, .acc,  #top_subsite .right, #breadcrumb .right, #slider, .secnav, #quicklinks, h1.acc, .links, .links3, #globalnav, .footernav, #footer .left, .gf-author, .gf-spacer, .gf-relativePublishedDate, .banner_image, nav ul#topnav li, nav ul#homenav li, ul#topnav, ul#homenav, ul#topnav li, ul#homenav li {
+	display: none;
+	}
+
+/*Displays image slideshow text items */	
+.nivo-html-caption{
+	display: block;
+	
+}
+
+/*Displays SJSU address and logo in footer*/
+#footer .right, #footer .right a:link{
+	float: left;
+	clear: left; /* no floating elements on the left - cjo */ 
+	display: block;
+	color:#939598;
+  	display:block;
+ 	font:normal 10px Verdana, Geneva, sans-serif;
+ 	position: relative;
+ 	padding-bottom: 2em;
+	padding-top: 2em;
+	text-decoration: none;
+	
+}
+a.btn_logo_f, a.btn_logo_f img {
+	border: none;
+}
+
+.btn_logo_f, a.btn_logo_f:link, a.btn_logo_f:visited, a.btn_logo_f:focus{
+	float: left;
+	display: block;
+	background-image: none transparent;
+	height:52px;
+  	overflow-x:hidden;
+  	overflow-y:hidden;
+  	text-indent: none;
+	background-position:top;
+ 	width:112px;
+	
+}
+.btn_logo_f img {
+	margin: 0;
+}
+	
+
+/*Calendar formattting for print */	
+.cal, .cal2, .cal3, .cal4{
+	display: block;
+	padding-bottom: 10px;	
+}
+
+
+.home_events{
+	display:block;
+	height: 30px;
+}
+
+.cal a:link, .cal2 a:link, .cal3 a:link, .cal4 a:link, .cal a:visited, .cal2 a:visited, .cal3 a:visited, .cal4 a:visited{
+	text-decoration: none;
+	color:#777;	
+}
+
+p.date{
+	font-weight: bold;	
+}
+
+.cdate{
+	color:#777;		
+}
+
+.cinfo, .cinfo2 {
+	font-size: 12px;
+	display: block;		
+}
+
+.cinfo2 {
+	margin: 15px 0px 15px 0px;	
+	
+}
+
+.cinfo home_event_decs, .cinfo2 home_event_decs{
+	font-size: 12px;
+	display: block;
+	color:#777;		
+}
+
+.cinfo a:link, .cal2 a:link{
+	text-decoration: none;
+	color:#777;		
+}
+
+
+
+/*Adds padding so that header has breathing room on Subsite homepages*/
+.l{
+ 	padding-top: 20px;		
+}
+
+.v5 right{
+	padding-top: 30px;	
+	
+}
+
+/*SJSU Logo */
+h1{
+	width:100%; 
+	border-bottom:#666666 solid 1px; 
+	padding-bottom:5px; 
+	font-family: 'AbsaraSansOT-bold', Verdana, sans-serif; 
+	text-transform:uppercase;
+	font-size: 1.175em;
+	letter-spacing: .2em;
+	}
+
+/*Formats Subsite Homepage title items to display properly for printing purposes */
+#top_subsite .left {
+    border-bottom: 1px solid #4D4D4D;
+    display: block;
+    height: 5em;
+    margin-bottom: 0.875em;
+    padding-top: 0.875em;
+    width: 660px;
+}
+		
+/*Other headings on site */	
+h2, h4{
+	font-size:14px; 
+	padding:10px 0 5px 0; 
+	margin:0; 
+	color:#000;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	}
+	
+h3{
+	font-size:.8em; 
+	padding:10px 0 5px 0; 
+	margin:0; 
+	text-transform:uppercase; 
+	color:#000; 
+	}
+	
+h3 a:link, h3 a:visited {
+  color:#5D594B;
+  font:normal normal bold 11px/1.5em Verdana, Geneva, sans-serif;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+
+
+
+/*Paragraph text on all templates*/
+p{
+	padding:0 0 5px 0; 
+	margin:0; 
+	font-size:.8em;
+	}
+
+a.btn_logo{
+	font-size:14px; 
+	font-weight:bold; 
+	text-decoration:none; 
+	color:#000000;
+	}
+
+h2.pagetitle{
+	font-family: Georgia;
+	font-style: italic; 
+	font-size:18px; 
+	padding:10px 0 5px 0; 
+	margin:0;
+	color:#000;
+}
+
+/*Contact info Subsite homepages*/	
+.contact-info {
+  color:#000;
+  font-size: 0.75em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 20px 0px 10px 0px;
+}
+
+/*RSS feed text formatting*/
+div.gf-title {
+	font: italic bold 0.75em Georgia, "Times New Roman", Times, serif;
+	text-transform: uppercase;
+	color: #4D4D4D;
+	margin: 0;
+	padding: 0 0 0 15px;
+	background: url(/sjsuhome/assets/images/icon_plus.gif) top left no-repeat;
+}
+.gf-snippet {
+	line-height: 2.25em;
+	margin: 2px 0 0 0px;
+	padding: 0px 15px 20px;
+	font: 0.75em Georgia, "Times New Roman", Times, serif;
+	color: #4D4D4D;
+}
+.gfc-result .gf-title {
+	overflow: visible !important;
+	height: auto !important;
+	line-height: 1.2em !important;
+}
+
+.gf-author, .gf-spacer, .gf-relativePublishedDate{
+	display: none;
+	color: #fff;
+	font-size: 9px;
+	margin-left: 15px;
+}
+
+/*Form text formatting for print*/
+.doc_index {
+  display:block;
+  float:left;
+  list-style-image:initial;
+  list-style-position:initial;
+  list-style-type:none;
+  margin-bottom:20px;
+  padding:0px;
+  width:670px;
+}
+.doc_index li {
+  border-bottom-color:#4D4D4D;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  display:block;
+  float:left;
+  width:660px;
+  height: 25px;
+  padding: 10px; /*added 2012-03-13 cc*/
+}
+
+.rdoc {
+  color:#4D4D4D;
+  display:block;
+  float:left;
+  font:normal normal normal 8pt/normal Verdana, Geneva, sans-serif;
+  padding: 5px 0px 5px 10px
+  text-align:left;
+  padding-top: 8px;
+}
+
+.rdoc_type{
+padding-left: 10px;
+}
+
+h3.doc_col_header {
+  background-attachment:initial;
+  background-clip:initial;
+  background-color:#e1e1e1;
+  background-image:initial;
+  background-origin:initial;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  color:#000;
+  display:block;
+  float:left;
+  font:normal normal normal 10pt/normal Verdana, Geneva, sans-serif;
+  padding: 5px 0px 5px 10px;
+  width:670px; /*modified 2012-03-13 cc*/
+}
+
+/*Adjusts header on 2col template for printing */
+.v5 .content_wrapper .right h2:first-child {
+  margin: 33px 0px -25px 0px;
+}
+
+
+.v5 .content_wrapper .right h2 {
+  margin: 0px 0px -5px 0px;
+}
+
+/*Adjusts calendar header on homepage template for printing */
+.content_wrapper .left h2:first-child{
+	margin: 0px 0px -15px 0px;
+	
+}
+
+/*Adjusts calendar on homepage template for printing */
+.content_wrapper .left{
+	margin: 0px 0px 13px 0px;
+	
+}
+
+/*Adjusts calendar on 2col template for printing */
+.v5 .content_wrapper .left{
+  margin: -5px 0px 0px 0px;
+}
+
+
+/*Adjusts header on 3col template for printing */
+.v5 .content_wrapper .right .l h2:first-child {
+  margin: 0px 0px 0px 0px;
+}
+
+/*Subsite logo branding */
+#top_subsite .left h1 {
+  color:#4D4D4D;
+  font-family:'AbsaraSansOT-bold', Verdana, sans-serif;
+  font-size: 1em;
+  height:10px;
+  letter-spacing:0.17em;
+  margin-bottom:8px;
+  text-transform:uppercase;
+  border: none;
+}
+
+#top_subsite .left h2, #top_subsite .left h2 a {
+  color:#898989;
+  display:inline;
+  float:left;
+  font-family:'AbsaraSansOT-bold', Verdana, sans-serif;
+  font-size:0.625em;
+  font-style:normal;
+  letter-spacing:0.33em;
+  line-height: .2em;
+  margin:0px;
+  padding:0px;
+  text-transform:uppercase;
+}
+
+#top_subsite .left h2.subsite_enclosingunit {
+  border-left-color:#AAAAAA;
+  border-left-style:solid;
+  border-left-width:2px;
+  height: 7px;
+  margin: -5px 0px 0px 4px;
+  padding:5px 0px 0px 8px; 
+}
+
+#top_subsite .left a:link {
+    color: #666666;
+    padding-left: 1em;
+    text-decoration: none;
+}
+
+
+/*Adjusts spacing on forms template */
+.doc_col:first-child{
+	margin: -13px 0px 0px 0px;
+}
+
+/*Staff Directory template styling for print */
+a.profile_col, a.profile_col:visited {
+  background-attachment:initial;
+  background-clip:initial;
+  background-color:#FFFFFF;
+  background-image:initial;
+  background-origin:initial;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  cursor:pointer;
+  display:block;
+  float:left;
+  height:70px;
+  padding-top:5px;
+  width:660px;
+}
+
+.cphoto {
+  border-bottom-color:#4D4D4D;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  border-right-color:#4D4D4D;
+  border-right-style:solid;
+  border-right-width:1px;
+  display:block;
+  float:left;
+  height:60px;
+  width:65px;
+  padding-bottom: 10px;
+}
+
+.rprofile {
+  border-bottom-color:#4D4D4D;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  color:#4D4D4D;
+  display:block;
+  float:right;
+  font:normal normal normal 9px/1.3em Verdana, Geneva, sans-serif;
+  height:65px;
+  padding:0;
+  text-align:left;
+  width:585px;
+}
+
+.rprofile_l {
+  color:#4D4D4D;
+  display:block;
+  float:left;
+  font:normal normal normal 9px/1.3em Verdana, Geneva, sans-serif;
+  height:30px;
+  padding:0;
+  text-align:left;
+  width:200px;
+}
+
+.rprofile_r {
+  color:#4D4D4D;
+  display:block;
+  float:right;
+  font:italic normal normal 9px/1.3em Georgia, 'Times New Roman', Times, serif;
+  height:30px;
+  padding:0;
+  text-align:left;
+  width:300px;
+}
+
+ul{
+  font-size:.8em;
+	}
+	
+	/* added styling to remove link under h1 tag 2012-02-29 cc*/
+#top_subsite .left a:link {
+    text-decoration: none;
+    border-bottom: medium none;
+}
+
+#content{
+display: block;
+}
+
+
+.longinfo{
+padding-bottom: 10em;
+
+}
+
+.contactus{
+display: none;
+}

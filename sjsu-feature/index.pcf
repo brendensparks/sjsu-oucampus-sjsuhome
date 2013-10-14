@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?pcf-stylesheet path="/_resources/xsl/default.xsl" site="templates" extension="html"?>
+<!DOCTYPE document SYSTEM "http://commons.omniupdate.com/dtd/standard.dtd">
+
+<document>
+	<headcode></headcode>
+	<bodycode></bodycode>
+	<footcode></footcode>
+	<!-- com.omniupdate.properties -->
+		<title>SJSU Feature</title>
+	<!-- /com.omniupdate.properties -->
+	<config>
+		<parameter name="pagetype">interior</parameter>
+		
+		<parameter name="columns" type="select" group="Everyone" prompt="Number of Columns" alt="How many columns do you want your page to have?">
+		<option value="1col" selected="true">One Column</option>
+		<option value="2col" selected="false">Two Columns</option>
+		<option value="3col" selected="false">Three Columns</option>
+		</parameter>
+		<!-- com.omniupdate.properties -->
+ 		<parameter name="sitemap" type="radio" group="Everyone" prompt="Sitemap" alt="Include page in sitemap?">
+<option value="yes" selected="false">yes</option>
+<option value="no" selected="true">no</option>
+</parameter>		
+		<!-- /com.omniupdate.properties -->
+		<!-- com.omniupdate.properties -->
+		<parameter name="primarynav" prompt="Primary Nav order" group="Everyone" alt="Order to appear in Primary Navigation."></parameter>
+		<!-- /com.omniupdate.properties -->
+	</config>
+	<metadata>
+		<!-- com.omniupdate.properties -->
+		<meta http-equiv="refresh" content="0;URL=http://bit.ly/campaign-finale-web-theme-link" />
+		<!-- /com.omniupdate.properties -->
+	</metadata>
+	<maincontent>
+		<column_one>
+		<!-- com.omniupdate.div  label="column_one"  group="Everyone"  button="707"  break="break" -->
+		<!-- com.omniupdate.editor csspath="/includes/ou/editor/1column/column_one.css" cssmenu="/includes/ou/editor/content.txt" width="955" -->
+		<!-- /com.omniupdate.div -->
+		</column_one>
+		<column_two>
+		<!-- com.omniupdate.div  label="column_two"  group="Everyone"  button="707"  break="break" --><!-- com.omniupdate.editor csspath="/includes/ou/editor/1column/column_two.css" cssmenu="/includes/ou/editor/content.txt" width="955" -->
+		<br />		
+			<h2> This page will redirect to the The <a href="http://bit.ly/campaign-finale-web-theme-link"><em>Acceleration</em> Campaign website.</a>.</h2>
+		<br />
+		<h3> If the page does not redirect within 5 seconds. Refresh page.</h3>
+		<!-- /com.omniupdate.div -->
+		</column_two>
+		<column_three>
+		<!-- com.omniupdate.div  label="column_three"  group="Everyone"  button="707"  break="break" -->
+		<!-- com.omniupdate.editor  csspath="/includes/ou/editor/1column/column_three.css"  cssmenu="/includes/ou/editor/content.txt"  width="955" -->
+		<!-- /com.omniupdate.div -->
+		</column_three>
+	</maincontent>
+</document>

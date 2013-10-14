@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?pcf-stylesheet path="/_resources/xsl/default.xsl" site="templates" extension="html"?>
+<!DOCTYPE document SYSTEM "http://commons.omniupdate.com/dtd/standard.dtd">
+
+<document>
+		<!-- com.omniupdate.properties -->
+		<title>Discover SJSU</title>
+		<!-- /com.omniupdate.properties -->
+	<config>
+		<parameter name="pagetype">subhome</parameter>
+		<!-- com.omniupdate.properties -->
+		<parameter name="columns" type="select" group="Everyone" prompt="Number of Columns" alt="How many columns do you want your page to have?">
+			<option value="1col" selected="false">One Column</option>
+			<option value="2col" selected="false">Two Columns</option>
+			<option value="3col" selected="true">Three Columns</option>
+		</parameter>
+		
+		<parameter name="quicklinks" type="radio" group="Everyone" prompt="Quicklinks" alt="Show/Hide the quicklinks?">
+			<option value="show" selected="false">Show</option>
+			<option value="hide" selected="true">Hide</option>
+		</parameter>
+		
+ 		<parameter name="sitemap" type="radio" group="Everyone" prompt="Sitemap" alt="Include page in sitemap?">
+			<option value="yes" selected="true">yes</option>
+			<option value="no" selected="false">no</option>
+		</parameter>
+		
+		<parameter name="slideshow" type="radio" group="Everyone" prompt="Slideshow" alt="Replace banner image with slideshow?">
+			<option value="yes" selected="false">yes</option>
+			<option value="no" selected="true">no</option>
+		</parameter>
+		<!-- /com.omniupdate.properties -->
+	<!-- com.omniupdate.properties -->
+<parameter name="primarynav" prompt="Primary Nav order" group="Everyone" alt="Order to appear in Primary Navigation.">01</parameter>
+<!-- /com.omniupdate.properties -->
+</config>
+	<metadata>
+		<!-- com.omniupdate.properties -->
+			<meta name="description" content="" />
+			<meta name="keywords" content="" />
+			<meta name="author" content="" />
+		<!-- /com.omniupdate.properties -->
+	</metadata>
+	<maincontent>
+		<column_one>
+		<!-- com.omniupdate.div  label="column_one"  group="Everyone"  button="707"  break="break" -->
+		<!-- com.omniupdate.editor csspath="/includes/ou/editor/3column/column_one.css" cssmenu="/includes/ou/editor/content.txt" width="955" -->
+		<h3>Lorem ipsum dolor</h3>
+		<p>Integer vel elit at lorem dictum fringilla id eget lectus. Nam ut mi nibh, id viverra tortor. Ut laoreet, sapien quis semper placerat, nulla nisi molestie est, pretium tincidunt massa tellus ac augue. Mauris faucibus, nisl id vulputate consequat, purus lorem sagittis nisi, ut ornare orci sapien auctor tellus. Praesent at nulla ut mi rutrum semper eu in arcu. Nulla viverra dignissim sem, quis vehicula justo malesuada a. Phasellus pellentesque egestas posuere. Proin ornare tempus felis ultricies molestie. Vivamus arcu lectus, posuere id lobortis volutpat, adipiscing sed nibh. </p>
+		<!-- /com.omniupdate.div -->
+		</column_one>
+		<column_two>
+		<!-- com.omniupdate.div  label="column_two"  group="Everyone"  button="707"  break="break" -->
+		<!-- com.omniupdate.editor csspath="/includes/ou/editor/3column/column_two.css" cssmenu="/includes/ou/editor/content.txt" width="955" -->
+		<h3>Lorem ipsum dolor</h3>
+		<p>Integer vel elit at lorem dictum fringilla id eget lectus. Nam ut mi nibh, id viverra tortor. Ut laoreet, sapien quis semper placerat, nulla nisi molestie est, pretium tincidunt massa tellus ac augue. Mauris faucibus, nisl id vulputate consequat, purus lorem sagittis nisi, ut ornare orci sapien auctor tellus. Praesent at nulla ut mi rutrum semper eu in arcu. Nulla viverra dignissim sem, quis vehicula justo malesuada a. Phasellus pellentesque egestas posuere. Proin ornare tempus felis ultricies molestie. Vivamus arcu lectus, posuere id lobortis volutpat, adipiscing sed nibh. </p>
+		<!-- /com.omniupdate.div -->
+		</column_two>
+		<column_three>
+		<!-- com.omniupdate.div  label="column_three"  group="Everyone"  button="707"  break="break" -->
+		<!-- com.omniupdate.editor  csspath="/includes/ou/editor/3column/column_three.css"  cssmenu="/includes/ou/editor/content.txt"  width="955" -->
+		<h3>Lorem ipsum dolor</h3>
+		<p>Integer vel elit at lorem dictum fringilla id eget lectus. Nam ut mi nibh, id viverra tortor. Ut laoreet, sapien quis semper placerat, nulla nisi molestie est, pretium tincidunt massa tellus ac augue. Mauris faucibus, nisl id vulputate consequat, purus lorem sagittis nisi, ut ornare orci sapien auctor tellus. Praesent at nulla ut mi rutrum semper eu in arcu. Nulla viverra dignissim sem, quis vehicula justo malesuada a. Phasellus pellentesque egestas posuere. Proin ornare tempus felis ultricies molestie. Vivamus arcu lectus, posuere id lobortis volutpat, adipiscing sed nibh. </p>
+		<!-- /com.omniupdate.div -->
+		</column_three>
+		<quicklinks>
+			<!-- com.omniupdate.div  label="quicklinks"  group="Everyone"  button="707"  break="break" -->
+			<!-- com.omniupdate.editor  csspath="/includes/ou/editor/quick-links.css"  cssmenu="/includes/ou/editor/content.txt"  width="955" -->
+			<ul class="sn2 home_ql" role="navigation">
+				<li><a href="#">Lorem ipsum dolor</a></li>
+				<li><a href="#">consectetur adipiscing elit</a></li>
+				<li><a href="#">Nullam fringilla</a></li>
+			</ul>
+			<!-- /com.omniupdate.div -->
+		</quicklinks>
+		<banner>
+			<banner_caption>
+				<!-- com.omniupdate.div  label="banner_caption"  group="Everyone"  button="707"  break="break" -->
+				<!-- com.omniupdate.editor  csspath="/includes/ou/editor/image-text.css"  cssmenu="/includes/ou/editor/content.txt"  width="955" -->
+				<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
+                <p>Vivamus commodo erat sed justo auctor in mattis neque mollis. Suspendisse potenti. Duis at ornare quam. In vehicula elit quis nunc faucibus pellentesque tincidunt sem vestibulum. Integer nisi velit, varius at ornare non, mollis vel ante.</p>
+				<!-- /com.omniupdate.div -->
+			</banner_caption>
+			<image>
+				<!-- com.omniupdate.div  label="image"  group="Everyone"  button="707"  break="break" -->
+				<!-- com.omniupdate.editor  csspath="/includes/ou/editor/image.css"  cssmenu="/includes/ou/editor/content.txt"  width="955" -->
+				<img alt="Spartan Squad Students supporting SJSU athletics." src="/assets/images/_gallery_subsite/_banner_images/image_gallery_15.jpg" />
+				<!-- /com.omniupdate.div -->
+			</image>
+			<slideshow>
+				<!-- com.omniupdate.div  label="slideshow"  group="Everyone"  button="707"  break="break" -->
+				<!-- com.omniupdate.editor  csspath="/includes/ou/editor/slideshow.css"  cssmenu="/includes/ou/editor/content.txt"  width="955" -->
+				<table>
+<tbody>
+<tr><th>image</th><th>title</th><th>caption</th></tr>
+<tr>
+<td><img src="/assets/images/_gallery_subsite/_banner_images/image_gallery_17.jpg" alt="Students @ SJSU" /></td>
+<td>Students at Work</td>
+<td>San José State University's location in the Silicon Valley makes it an exceptionally rewarding learning environment for students.</td>
+</tr>
+<tr>
+<td><img src="/assets/images/_gallery_subsite/_banner_images/image_gallery_15.jpg" alt="Class in session" /></td>
+<td>What is Spartan Squad?</td>
+<td>Spartan Squad is the official student athletic booster program of San José State University supporting SJSU athletics. Founded in the Fall of 2005 by Matthew Olivieri and Brad Villeggiante, with support from Associated Students, the Squad increases SJSU pride, unity and spirit throughout the student body.</td>
+</tr>
+<tr>
+<td><img src="/assets/images/_gallery_subsite/_banner_images/image_gallery_06.jpg" alt="Students artwork" /></td>
+<td>Spartans Transform Construction Site into a Work of Art</td>
+<td>An SJSU Art student painting a mural, located by the Student Union, in front of the Art Building. Students have decided to paint the wall that was put up after construction started in order to celebrates the continuity of the past and present by showcasing artist self-portraits of the past five hundred years.</td>
+</tr>
+</tbody>
+</table>
+				<!-- /com.omniupdate.div -->
+			</slideshow>
+		</banner>
+	</maincontent>
+</document>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?pcf-stylesheet path="/_resources/xsl/default.xsl" site="templates" extension="html"?>
+<!DOCTYPE document SYSTEM "http://commons.omniupdate.com/dtd/standard.dtd">
+
+<document>
+		<!-- com.omniupdate.properties -->
+		<title>Powering Silicon Valley</title>
+		<!-- /com.omniupdate.properties -->
+	<config>
+		<parameter name="pagetype">home</parameter>
+		
+		<parameter name="subsite" type="radio" group="Everyone" prompt="Subsite" alt="Is this a subsite homepage?">
+			<option value="yes" selected="false">yes</option>
+			<option value="no" selected="true">no</option>
+			</parameter>
+		<!-- com.omniupdate.properties -->
+		<parameter name="slideshow" type="radio" group="Everyone" prompt="Slideshow" alt="Replace Banner image with slideshow?">
+<option value="yes" selected="true">yes</option>
+<option value="no" selected="false">no</option>
+</parameter>
+		<parameter name="columns" type="select" group="Everyone" prompt="Number of Columns" alt="How many columns do you want your page to have?">
+<option value="1col" selected="false">One Column</option>
+<option value="2col" selected="false">Two Columns</option>
+<option value="3col" selected="true">Three Columns</option>
+</parameter>
+		
+ 		<parameter name="sitemap" type="radio" group="Everyone" prompt="Sitemap" alt="Include page in sitemap?">
+<option value="yes" selected="false">yes</option>
+<option value="no" selected="true">no</option>
+</parameter>		
+		<!-- /com.omniupdate.properties -->
+	<!-- com.omniupdate.properties -->
+<parameter name="primarynav" prompt="Primary Nav order" group="Everyone" alt="Order to appear in Primary Navigation."></parameter>
+<!-- /com.omniupdate.properties -->
+</config>
+	<metadata>
+		<!-- com.omniupdate.properties -->
+			<meta name="description" content="San Jose State University" />
+			<meta name="keywords" content="SJSU, San Jose State University, News, Homepage" />
+			<meta name="author" content="Christina Olivas" />
+		<!-- /com.omniupdate.properties -->
+	</metadata>
+	<headcode>
+	<!-- COLORBOX -->
+		<link rel="stylesheet" type="text/css" href="http://www.sjsu.edu/sjsuhome/assets/css/colorbox.css" media="screen" />
+	</headcode>	
+	<maincontent>
+		<column_one>
+		<!-- com.omniupdate.div  label="column_one"  group="Everyone"  button="707"  break="break" --><!-- ouc:editor csspath="/includes/ou/editor/3column/column_one.css" cssmenu="/includes/ou/editor/content.txt" width="955"/ --><h3>Campus Tour</h3>
+{{a:25453}}
+<h3>Events</h3>
+<div>
+<p class="events-menu"><a href="http://events.sjsu.edu/oePublicForm.aspx">Submit an Event</a> &nbsp;|&nbsp; <a href="http://events.sjsu.edu/">More Events</a></p>
+<script type="text/javascript" language="javascript" src="http://events.sjsu.edu/EventListSyndicator.aspx?type=N&amp;number=5&amp;category=20-0&amp;ics=Y&amp;highlight=Y&amp;expire=Y&amp;adpid=15&amp;nem=No+events+are+available+that+match+your+request"></script>
+</div><!-- /com.omniupdate.div -->
+		</column_one>
+		<column_two>
+		<!-- com.omniupdate.div  label="column_two"  group="Everyone"  button="707"  break="break" --><!-- ouc:editor csspath="/includes/ou/editor/3column/column_two.css" cssmenu="/includes/ou/editor/content.txt" width="955"/ --><h3>Bright Ideas</h3>
+<a href="http://bit.ly/sjsu-bioready"><img title="Test Tubes" src="/sjsuhome/pics/news/148-testtubes.jpg" alt="Test Tubes" width="320" height="150" /></a>
+<h4><a href="http://bit.ly/sjsu-bioready">Teams Advance in StartUp Cup</a></h4>
+<p>SJSU alumni develop program to automate inventory management process for labs.<br /> <a class="readmore" href="http://bit.ly/sjsu-bright-ideas">More Bright Ideas </a></p>
+<br />
+<h3>News</h3>
+<a href="http://bit.ly/sjsu-legacyweek-13"> <img title="Dr. Harry Edwards" src="/sjsuhome/pics/news/151-legacy-week.jpg" alt="Dr. Harry Edwards" width="320" height="150" /> </a>
+<h4><a href="http://bit.ly/sjsu-legacyweek-13">SJSU Hosts Legacy Week</a></h4>
+<p>Activities highlight the leading role Spartans play in social justice.<br /> <a class="readmore" href="http://bit.ly/sjsu-today">More News Stories </a></p><!-- /com.omniupdate.div -->
+		</column_two>
+		<column_three>
+		<!-- com.omniupdate.div  label="column_three"  group="Everyone"  button="707"  break="break" --><!-- ouc:editor csspath="/includes/ou/editor/3column/column_three.css" cssmenu="/includes/ou/editor/content.txt" width="955"/ --><h3>Spartan Pride</h3>
+<a href="http://bit.ly/sjsu-football1"><img title="SJSU Football Team" src="/sjsuhome/pics/news/133-football-team.jpg" alt="SJSU Football Team" width="320" height="150" /></a>
+<h4><a href="http://bit.ly/sjsu-football1">Spartans Comeback to Win</a></h4>
+<p>San Jose State shows resiliency in a rewarding victory over Colorado State.<br /><a class="readmore" href="http://bit.ly/spartan-pride">More Spartan Pride Stories</a></p>
+<br />
+<h3>Power SJSU</h3>
+<a href="http://bit.ly/sjsu-keck-13"><img title="Keck Gift" src="/sjsuhome/pics/news/149-keck-gift.jpg" alt="Keck Gift" width="320" height="150" /></a>
+<h4><a href="http://bit.ly/sjsu-keck-13">SJSU Receives&nbsp;Keck Foundation Gift</a></h4>
+<p>Gift provides $250,000 for undergraduate research opportunities and more.<br /><a class="readmore" href="http://bit.ly/sjsu-accelerationcampaign">More Campaign Stories</a></p><!-- /com.omniupdate.div -->
+		</column_three>
+		<quicklinks>
+			<!-- com.omniupdate.div  label="quicklinks"  group="Everyone"  button="707"  break="break" -->
+			<!-- com.omniupdate.editor  csspath="/includes/ou/editor/quick-links.css"  cssmenu="/includes/ou/editor/content.txt"  width="955" -->
+			<ul class="sn2 home_ql" role="navigation">
+				<li><a href="#">Lorem ipsum dolor</a></li>
+				<li><a href="#">consectetur adipiscing elit</a></li>
+				<li><a href="#">Nullam fringilla</a></li>
+			</ul>
+			<!-- /com.omniupdate.div -->
+		</quicklinks>
+		<banner>
+			<banner_caption>
+				<!-- com.omniupdate.div  label="banner_caption"  group="Everyone"  button="707"  break="break" --><!-- ouc:editor csspath="/includes/ou/editor/image-text.css" cssmenu="/includes/ou/editor/content.txt" width="955"/ --><!-- /com.omniupdate.div -->
+			</banner_caption>
+			<image>
+				<!-- com.omniupdate.div  label="image"  group="Everyone"  button="707"  break="break" --><!-- ouc:editor csspath="/includes/ou/editor/image.css" cssmenu="/_resources/ou/editor/content.txt" width="955"/ --><img src="/sjsuhome/pics/homecoming-sammy.jpg" alt="homecoming week announcement" width="660" height="340" /><!-- /com.omniupdate.div -->
+			</image>
+			<slideshow>
+				<!-- com.omniupdate.div  label="slideshow"  group="Everyone"  button="707" --><!-- ouc:editor csspath="/includes/ou/editor/slideshow.css" cssmenu="/includes/ou/editor/content.txt" width="955"/ --><table>
+<tbody>
+<tr><th>image</th><th>title</th><th>caption</th></tr>
+<tr>
+<td><img title="Applications for Fall 2014" src="/sjsuhome/pics/admissions-student-classroom.jpg" alt="Applications for Fall 2014" width="660" height="340" /></td>
+<td>Now Accepting Applications</td>
+<td>SJSU is accepting applications for the fall 2014 semester now through Saturday, November 30. <br />Learn <a href="http://bit.ly/sjsu-admissions-fall-2014" target="_blank">how to apply</a>.</td>
+</tr>
+<tr>
+<td><img title="Jordan Gonzales" src="/sjsuhome/pics/gonzales-jordan-csu.jpg" alt="Jordan Gonzales" width="660" height="340" /></td>
+<td>Student Overcomes Odds to Earn His Degree</td>
+<td>Jordan Gonzales receives the California State University system’s <a href="http://bit.ly/sjsu-jordan-gonzales">highest honor for extraordinary students</a> facing tremendous personal challenges.</td>
+</tr>
+<tr>
+<td><img title="SJSU Ranks as Top Public University" src="/sjsuhome/pics/tower-hall-campus.jpg" alt="" width="660" height="340" /></td>
+<td>SJSU Ranks 8th Overall Among the West's Top Public Universities</td>
+<td>“Our <a href="http://bit.ly/sjsu-us-news-13">U.S. News ranking</a> reflects the academic achievements of our students, the quality of our programs and San Jose State’s role powering Silicon Valley.” —President Qayoumi</td>
+</tr>
+<tr>
+<td><img title="Cyber Challenge Student" src="/cybersecurity/pics/cyber-challenge-girl.jpg" alt="Cyber Challenge Student" width="660" height="340" /></td>
+<td>October is National Cybersecurity Awareness month</td>
+<td>SJSU wants to help the university community maintain a safe, secure and resilient computing environment. Learn more: <a href="http://bit.ly/sjsu-infosecurity">Information Security</a> and <a href="http://bit.ly/sjsu-cybersecurity">SJSU cybersecurity initiatives</a>.</td>
+</tr>
+</tbody>
+</table><!-- /com.omniupdate.div -->
+			</slideshow>
+			<gallery>
+				<!-- com.omniupdate.div  label="gallery"  group="Everyone"  button="707" --><!-- ouc:editor csspath="/includes/ou/editor/gallery.css" cssmenu="/includes/ou/editor/content.txt" width="955"/ --><img title="Tower Hall" src="/sjsuhome/pics/tower-hall.jpg" alt="Tower Hall: Tower Hall is the centerpiece of San Jose State University. Built in 1910 to replace a previous building damaged in the earthquake of 1906, Tower Hall is the oldest structure on the SJSU campus, the oldest public school of higher education in California. State architects Sellon &amp; Hemmings designed the building in the Spanish Revival style with influences from Gothic, Renaissance Revival, and Modern, reflecting the rich diversity found in San Jose." width="860" height="590" /><img title="Martin Luther King Jr. Library" src="/sjsuhome/pics/library-03.jpg" alt="In 2003 San José State University and the City of San Jose came together to form a unique partnership offering joint library services to citizens of San Jose and SJSU students and faculty. The Martin Luther King, Junior Library on corner of 4th and East San Fernando Streets, features the world renowned Ira F. Brilliant Center for Beethoven Studies and Martha Heasley Cox Steinbeck Research Center." width="860" height="590" /> <img title="Smith/Carlos Statue" src="/sjsuhome/pics/statues-02.jpg" alt="Smith/Carlos Statue: SJSU’s iconic Tommie Smith and John Carlos sculpture honors the two 1968 Olympic gold and bronze medal winners and SJSU student activists.  Designed by artist Rigo 23, the sculpture depicts the pivotal moment in history when Smith and Carlos took a stand for human rights on the victory podium at the Olympics, a silent protest that was seen around the world. The sculpture stands 20-feet tall and is situated in the Sculpture Garden between Clark Hall and Tower Hall." width="860" height="590" /> <img title="The Central Classroom Building" src="/sjsuhome/pics/campus_building.jpg" alt="The Central Classroom Building is home to SJSU’s Nutrition, Food Science, and Packaging Department, the first nutrition department in the California State University (CSU) system. Department faculty have received awards for their outstanding research and scholarly activities including “Healthy San Jose State,” a campus-wide initiative aimed at increasing healthy eating and active living among students, faculty and staff at SJSU. Thanks to the initiative the SJSU community now has the Spartan Smart Cart, a food stand selling healthy snacks, fresh fruits, and organic items at the north side of the Central Classroom Building during fall and spring terms." width="860" height="590" />&nbsp;&nbsp;<img title="Campus Village" src="/sjsuhome/pics/housing.jpg" alt="Campus Village: Campus Village is located on the south-east corner of campus, and is a short walking distance to classes, and Downtown San Jose.  The Village Market offers a variety of eateries and a convenience store for drinks and snacks." width="860" height="590" /> <img title="Memorial Arch" src="/sjsuhome/pics/chavez_arch.jpg" alt="Memorial Arch: The memorial arch to César E. Chávez along the Paseo de César E. Chávez is an eloquent testament to Chávez's struggles and achievements and an inspiration to others to follow a life of service. Designed by acclaimed muralist Judith F. Baca, the monument is a 22-foot tall arch topped with a glass eagle, the United Farm Workers' emblem, with decorative murals depicting people, concepts, symbols and historical events central to Chávez's life and the movement he led." width="860" height="590" /> <img title="College of Business" src="/sjsuhome/pics/business_building.jpg" alt="College of Business: For more than 80 years SJSU’s College of Business has prepared future business leaders. The college builds on Silicon Valley’s innovation and high-tech location, while focusing on global issues to prepare our students for success in today’s ever- changing marketplace.  Undergraduate and graduate programs at the College of Business are accredited by AACSB International, a distinguished hallmark of excellence in business education earned by less than 5% of business programs worldwide." width="860" height="590" /><!-- /com.omniupdate.div -->
+			</gallery>			
+		</banner>
+	</maincontent>
+</document>

@@ -1,0 +1,43 @@
+@import url("http://oucampus.sjsu.edu/assets/ou/editor/common.css");
+
+body{
+    background: url("http://oucampus.sjsu.edu/assets/ou/editor/quicklinks.png");
+    background-repeat: no-repeat;
+    width: 180px;
+    margin: 123px 0px 0px 51px;
+}
+
+ul {
+    color: #6D6E71 !important;
+    float: left;
+    list-style: none outside none;
+    margin-top: 10px;
+    padding: 0;
+}
+
+li {
+    background: url("/_resources/originals/assets/images/b_bullet.gif") no-repeat scroll 0 2px transparent;
+    padding-left: 6px;
+    margin-bottom: 8px;
+}
+
+a {
+    border-bottom: 1px dotted #6D6E71;
+    color: #6D6E71 !important;
+    cursor: pointer;
+    font: 10px/15px Verdana,Geneva,sans-serif !important;
+    text-decoration: none !important;
+    width: auto;
+    padding: 0;
+    margin: 0;
+}
+
+h2{
+    margin: 0;
+    padding: 0;
+}
+
+.acc, label {
+    left: -9999px;
+    position: absolute;
+}

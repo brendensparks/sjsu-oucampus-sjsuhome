@@ -1,0 +1,17 @@
+@import url("http://oucampus.sjsu.edu/assets/ou/editor/common.css");
+
+body{
+  margin:76px 483px 0px 77px;
+  background: no-repeat url("http://oucampus.sjsu.edu/assets/ou/editor/imagetext.png ");
+  
+}
+
+p {
+    font: 10px/1.5em Verdana,Geneva,sans-serif !important;
+    padding-bottom: 15px;
+    color: #FFFFFF !important;
+}
+
+h3 {
+    color: #FFFFFF !important;
+}

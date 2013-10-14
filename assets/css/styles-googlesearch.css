@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+.searchresults {
+	float: left;
+	margin-top: 5px;
+}
+.searchresults .g {
+	float: left;
+	display: block;
+	margin-bottom: 15px;
+}
+.searchresults .g:first-child {
+	float: left;
+	display: block;
+	font: normal 11px/1.7em Georgia, "Times New Roman", Times, serif;
+	color: #6D6E71;
+}
+.searchresults .g a {
+	margin-bottom: 8px;
+}
+.searchresults .g b {
+	float: left;
+	margin-right: 5px;
+	font: 11px/1.7em Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
+	color: #6D6E71;
+}
+.searchresults blockquote.g {
+	margin-bottom: 0;
+}
+.l {
+	float: left;
+	display: block;
+	width:  auto !important;
+	padding-right: 0 !important;
+	font: bold 11px/1.5em Verdana, Geneva, sans-serif;
+	color: #6F6B2F;
+	text-transform: uppercase;
+	padding-bottom: 8px;
+}
+.s {
+	float: left;
+	clear: left;
+	font: normal 11px/1.7em Georgia, "Times New Roman", Times, serif;
+	color: #6D6E71;
+}

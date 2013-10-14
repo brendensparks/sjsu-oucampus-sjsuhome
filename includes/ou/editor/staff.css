@@ -1,0 +1,63 @@
+@import url("http://oucampus.sjsu.edu/assets/ou/editor/common.css");
+
+body{
+	color: #333333 !important;
+}
+.cphoto {
+    border-bottom: 1px solid #4D4D4D;
+    border-right: 1px solid #4D4D4D;
+    height: 65px;
+    width: 65px;
+    list-style-type: none;
+    padding-left: 0px;
+    margin-right: 10px;
+}
+ul.profile_col, ul.profile_col:visited {
+    background: none repeat scroll 0 0 #FFFFFF;
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 70px;
+    padding-top: 5px;
+    padding-left: 0px;
+    width: 660px;
+    list-style-type: none;
+}
+ul.profile_col:hover, ul.profile_col:active, ul.profile_col:focus {
+    background: none repeat scroll 0 0 #F3F0EA;
+}
+.rprofile_l {
+    color: #4D4D4D !important;
+    display: block;
+    float: left;
+    font: 9px/1.3em Verdana,Geneva,sans-serif !important;
+    height: 30px;
+    padding: 0;
+    text-align: left;
+    width: 200px;
+    list-style-type: none;
+}
+.rprofile_r {
+    color: #4D4D4D !important;
+    display: block;
+    float: right;
+    font: italic 9px/1.3em Georgia,"Times New Roman",Times,serif !important;
+    height: 30px;
+    padding: 0;
+    text-align: left;
+    width: 300px;
+    list-style-type: none;
+}
+.rprofile {
+    border-bottom: 1px dotted #4D4D4D;
+    color: #4D4D4D !important;
+    display: block;
+    float: right;
+    font: 9px/1.3em Verdana,Geneva,sans-serif !important;
+    height: 65px;
+    padding: 0;
+    text-align: left;
+    width: 585px;
+    list-style-type: none;
+    margin-top: -66px;
+}

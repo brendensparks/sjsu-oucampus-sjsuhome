@@ -1,0 +1,110 @@
+/*==========================================================================================
+Filename:		content-enhancements.css
+Purpose:		Provide layout or visual enhancements to page content for OUCampus users.
+Created by:		Web Services
+Created:		12/03/12
+Last Modified:	7/25/13 13:33 (brenden.sparks@sjsu.edu)
+===========================================================================================*/
+
+/* @BUTTON
+When used on an <a> element, uses gradients to create a button.
+*/
+.btn-basic {
+	text-decoration:none;
+	border:1px solid #006faa;
+	-webkit-border-radius:6px;
+	   -moz-border-radius:6px;
+	        border-radius:6px;
+	font-family:verdana, sans-serif;
+	padding: 10px 10px 10px 10px;
+	text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+	font-weight:bold;
+	text-align:center;
+	color:#FFFFFF;
+	background-color: #008BD6;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #008BD6), color-stop(100%, #005A8B));
+	background-image: -webkit-linear-gradient(top, #008BD6, #005A8B);
+	background-image: -moz-linear-gradient(top, #008BD6, #005A8B);
+	background-image: -ms-linear-gradient(top, #008BD6, #005A8B);
+	background-image: -o-linear-gradient(top, #008BD6, #005A8B);
+	background-image: linear-gradient(top, #008BD6, #005A8B);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#008BD6, endColorstr=#005A8B);
+}
+
+.btn-basic:hover {
+	color:#fff;
+	text-decoration:none;
+	border:1px solid #004970;
+	background-color: #005A8B;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#005A8B), color-stop(100%, #003958));
+	background-image: -webkit-linear-gradient(top, #005A8B, #003958);
+	background-image:    -moz-linear-gradient(top, #005A8B, #003958);
+	background-image:     -ms-linear-gradient(top, #005A8B, #003958);
+	background-image:      -o-linear-gradient(top, #005A8B, #003958);
+	background-image: linear-gradient(top, #005A8B, #003958);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#005A8B, endColorstr=#003958);
+}
+.btn-basic:visited, .btn-basic:active {color:#fff; text-decoration:none;}
+/* additional code for specificity workarounds */
+.left a.btn-basic, .left a.btn-basic:visited, .right a.btn-basic, .right a.btn-basic:visited, .right a.btn-basic:hover, .right a.btn-basic:focus, .left a.btn-basic:hover, .left a.btn-basic:focus, .right a.btn-basic:active, .left a.btn-basic:active {text-decoration:none; color:#fff; border:1px solid; padding: 10px;}
+
+/* new button colors */
+
+/*
+
+.btn-grey {
+	border-color:#%%%%%%;
+	background-color: #^^^^^^;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #^^^^^^), color-stop(100%, #******));
+	background-image: -webkit-linear-gradient(top, #^^^^^^, #******);
+	background-image: -moz-linear-gradient(top, #^^^^^^, #******);
+	background-image: -ms-linear-gradient(top, #^^^^^^, #******);
+	background-image: -o-linear-gradient(top, #^^^^^^, #******);
+	background-image: linear-gradient(top, #^^^^^^, #******);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#^^^^^^, endColorstr=#******);
+
+.btn-grey:hover {
+	border-color:#&&&&&&;
+	background-color: #******;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#******), color-stop(100%, #++++++));
+	background-image: -webkit-linear-gradient(top, #******, #++++++);
+	background-image:    -moz-linear-gradient(top, #******, #++++++);
+	background-image:     -ms-linear-gradient(top, #******, #++++++);
+	background-image:      -o-linear-gradient(top, #******, #++++++);
+	background-image: linear-gradient(top, #******, #++++++);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#******, endColorstr=#++++++);	
+}
+
+
+*/
+
+
+
+/* @BOX
+Used on a containing <div> to create a thinly-bordered box. H3 elements are highlighted. 
+When added to a sidebar, given 180px width.
+.content_wrapper added for extra specificity where necessary
+*/
+.box-highlight {border:1px solid #686869;}
+	.secnav_subsite .box-highlight, .content_wrapper .left .box-highlight {width:178px;}
+	.content_wrapper .right .l .box-highlight, .content_wrapper .right .r .box-highlight {width:318px;}
+	/* Additional variations can be added to set a width on the box based on template location ( Check v# in styles.css ) */
+	.content_wrapper .box-highlight h3 {background-color:#686869; color:#fff; padding:5px; margin-bottom:0; font-size:120%; text-transform:none;}
+	.box-highlight h4 {padding:10px; margin:0; font-size:100%; font-weight:bold;}
+	.box-highlight h5 {padding:10px 10px 5px 10px; margin:0; font-weight:bold;}
+	.box-highlight ul {list-style-type:none; padding:0;}
+	.box-highlight li {padding:10px; font-size:120%;}
+	.box-highlight p {padding:10px; font-size:120%;}
+		.box-highlight.red {border-color:#ba4532;}
+		.content_wrapper .box-highlight.red h3 {background-color:#ba4532;}
+
+
+
+/* @NEWSLETTER
+Some unique style options to add to page elements to help create a OU Campus-based newsletter similar to
+Admin & Finance
+*/
+.boxNews {float:left;}
+.halfwidth {width:315px; margin:0 15px 15px 0;}
+
+/* @SUBTITLE
+A unique modification to a page parameter to allow a <span> in h1.pagetitle to act as a subtitle
+*/
+
+.pagetitle .subtitle {font-size:70%; color:#000; padding:2px 0 2px 10px; margin-left:5px; border-left:1px solid #ccc; }

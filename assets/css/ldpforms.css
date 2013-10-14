@@ -1,0 +1,63 @@
+
+.error {
+background-color:#ab0000;
+background-image:none;
+color:#ffffff;
+font-size:12px;
+font-weight:bold;
+margin-top:10px;
+padding:10px;
+line-height:20px;
+text-transform:uppercase;
+
+position:relative;
+top:0;
+
+-moz-border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+border-radius: 5px 5px 5px 5px;
+}
+.success {
+background-color:#ABAF00;
+color:#ffffff;
+font-size:12px;
+font-weight:bold;
+margin-top:10px;
+padding:10px;
+line-height:20px;
+text-transform:uppercase;
+position:relative;
+top:0;
+-moz-border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+border-radius: 5px 5px 5px 5px;
+}
+
+.ldpforms input.text, .ldpforms textarea, .ldpforms select.select{
+color: #333333;
+font-style: normal;
+font-weight: normal;
+
+}
+.ldpforms label {
+color: #444444;
+font-style: normal;
+font-weight: bold;
+}
+
+.ldpforms input.checkbox, .ldpforms input.radio {
+display: block;
+height: 13px;
+margin: 4px 0 0;
+padding: 0;
+width: 13px;
+}
+.spanerror{
+background-color:#FFDFD0;display:block;padding:4px;
+-moz-border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+border-radius: 5px 5px 5px 5px;
+}
+.errmsg{
+color:#AB0000;
+}
