@@ -23,8 +23,8 @@
 .ldp--poll-bar-container {
   position: relative;
   float: left;
-  height: 10px;
-  margin: 0px 0px 12px;
+  height: 12px;
+  margin: 0px 0px 10px;
   width:300px;
 }
   .col-3 .left .ldp--poll-bar-container, .col-2 .left .ldp--poll-bar-container, .secnav_subsite .ldp--poll-bar-container {width:160px;}
@@ -43,7 +43,7 @@
   overflow: hidden;
   color: #FFF;
   line-height:1.2;
-  font-size:75%;
+  font-size:87.5%;
   
 }
 
@@ -85,3 +85,19 @@
 .ldp--poll input {float:left; clear:both;}
 .ldp--inputRadio {margin:5px 5px 5px 0;}
 .ldp--labelRadio {font-size:75%; margin:3px 0 0 0; float:left;}
+
+.ldp--poll input[type="submit"] {
+  margin:0;
+  padding:.5em 1em;
+  font-size:87.5%;
+  color:#fff;
+  background-color:#005a8b;
+  border:none;
+  cursor:pointer;
+  border:1px solid #e5e5e5;
+}
+.ldp--poll input[type="submit"]:hover, .ldp--forms input[type="submit"]:focus {
+  color:#005a8b;
+  background-color:#fff;
+  border:1px solid #005a8b;
+};

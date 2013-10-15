@@ -89,10 +89,7 @@ border-right: none;
 .ldp--forms input[type="color"],
 .uneditable-input {
   background-color: #ffffff;
-  border: 1px solid #e5e5e5;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
+  border: 1px solid #bbb; 
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
@@ -260,3 +257,19 @@ color:#8e0000;
 
 .ldp--inputRadio {}
 .ldp--labelRadio {font-size:75%; margin:0;}
+
+.ldp--forms input[type="submit"] {
+  margin:0;
+  padding:.5em 1em;
+  font-size:100%;
+  color:#fff;
+  background-color:#005a8b;
+  border:none;
+  cursor:pointer;
+  border:1px solid #fff;
+}
+.ldp--forms input[type="submit"]:hover, .ldp--forms input[type="submit"]:focus {
+  color:#005a8b;
+  background-color:#fff;
+  border:1px solid #005a8b;
+};
