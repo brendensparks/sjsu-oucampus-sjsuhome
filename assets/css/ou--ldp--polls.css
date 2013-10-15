@@ -1,100 +1,103 @@
-  .ldp-poll-graph {
-  width: 510px;
+
+.ldp--poll-graph {
   position: relative;
-  /* right: 78px;*/
+  width:300px;
 }
-.ldp-poll-bar-title {
+  .col-3 .left .ldp--poll-graph, .col-2 .left .ldp--poll-graph, .secnav_subsite .ldp--poll-graph {width:160px;}
+
+
+.ldp--poll-form {float:left;}
+
+
+.ldp--poll-bar-title {
   position: relative;
-  /* float: left; */
-  width: 250px;
-  line-height: 20px;
-  margin-right: 17px;
+  line-height: 1.2;
   font-weight: bold;
-  /* text-align: right; */
+  font-size:87.5%;
+  margin-bottom:3px;
+  width:300px;
 }
-.ldp-poll-bar-container {
+.col-3 .left .ldp--poll-bar-title, .col-2 .left .ldp--poll-bar-title, .secnav_subsite .ldp--poll-bar-title {width:160px;}
+
+
+.ldp--poll-bar-container {
   position: relative;
   float: left;
-  width: 261px;
-  height: 10px;
-  margin: 0px 0px 20px;
+  height: 12px;
+  margin: 0px 0px 10px;
+  width:300px;
+}
+  .col-3 .left .ldp--poll-bar-container, .col-2 .left .ldp--poll-bar-container, .secnav_subsite .ldp--poll-bar-container {width:160px;}
+
+
+.ldp--poll-bar-container div {
+  height: 16px;
+  background-color: #005a8b;
 }
 
-.ldp-poll-bar-container div {
- 
-  height: 20px;
-  
-    background-color: #FF030D;/*
-    background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.25, rgba(255, 255, 255, .3)), color-stop(.25, transparent), color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .3)), color-stop(.75, rgba(255, 255, 255, .3)), color-stop(.75, transparent), to(transparent)),
-    					-webkit-gradient(linear, 0 100%, 100% 0, color-stop(.25, rgba(255, 0, 102, .2)), color-stop(.25, transparent), color-stop(.5, transparent), color-stop(.5, rgba(255, 0, 102, .2)), color-stop(.75, rgba(255, 0, 102, .2)), color-stop(.75, transparent), to(transparent));
-    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .3) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .3) 50%, rgba(255, 255, 255, .3) 75%,  transparent 75%, transparent),
-    					-webkit-linear-gradient(45deg, rgba(255, 0, 102, .2) 25%, transparent 25%, transparent 50%, rgba(255, 0, 102, .2) 50%, rgba(255, 0, 102, .2) 75%,  transparent 75%, transparent);
-    background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, .3) 25%, transparent 25%,transparent 50%, rgba(255, 255, 255, .3) 50%, rgba(255, 255, 255, .3) 75%, transparent 75%, transparent),
-    					-moz-linear-gradient(45deg, rgba(255, 0, 102, .2) 25%, transparent 25%,transparent 50%, rgba(255, 0, 102, .2) 50%, rgba(255, 0, 102, .2) 75%, transparent 75%, transparent);
-    background-image: -ms-linear-gradient(45deg, rgba(255, 255, 255, .3) 25%, transparent 25%,transparent 50%, rgba(255, 255, 255, .3) 50%, rgba(255, 255, 255, .3) 75%,transparent 75%, transparent),
-    					-ms-linear-gradient(45deg, rgba(255, 0, 102, .2) 25%, transparent 25%,transparent 50%, rgba(255, 0, 102, .2) 50%, rgba(255, 0, 102, .2) 75%,transparent 75%, transparent);
-    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, .3) 25%, transparent 25%,transparent 50%, rgba(255, 255, 255, .3) 50%, rgba(255, 255, 255, .3) 75%,transparent 75%, transparent),
-    					-o-linear-gradient(45deg, rgba(255, 0, 102, .2) 25%, transparent 25%,transparent 50%, rgba(255, 0, 102, .2) 50%, rgba(255, 0, 102, .2) 75%,transparent 75%, transparent);
-    background-image: linear-gradient(45deg, rgba(255, 255, 255, .3) 25%, transparent 25%,transparent 50%, rgba(255, 255, 255, .3) 50%, rgba(255, 255, 255, .3) 75%,transparent 75%, transparent),
-    					linear-gradient(45deg, rgba(255, 0, 102, .2) 25%, transparent 25%,transparent 50%, rgba(255, 0, 102, .2) 50%, rgba(255, 0, 102, .2) 75%,transparent 75%, transparent);
-*/
 
-  /* border-radius: 4px 4px 4px 4px; */
-    /* box-shadow: 0 1px 0 rgba(255, 255, 255, 0.8) inset, 0 -2px 0 rgba(0, 0, 0, 0.1) inset, 0 0 10px rgba(255, 255, 255, 0.5) inset, 0 0 0 1px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.2)*/ ;
-  
-}
-.ldp-poll-bar-container strong {
+.ldp--poll-bar-container strong {
   position: absolute;
-  right: 227px;
+  left: 5px;
   top: 0px;
   overflow: hidden;
   color: #FFF;
+  line-height:1.2;
+  font-size:87.5%;
+  
 }
 
-.ldp-poll-results  {
-display:none;
-    /*position: relative;*/
-    /*top: -218px;*/
-   padding-top:5px;
-   padding-bottom:5px;
-   padding-left:5px;
+
+.ldp--poll-results  {
+  display:none;
 }
-.ldp-poll-results h3{
-    color: #4B4B4B;
-    font-family: Georgia,"Times New Roman",Times,serif;
+
+.ldp--poll-results h3 {
+    color: #333;
     text-rendering: optimizelegibility;
-    margin:10px 1px 10px 1px;
 }
-.ldp-poll-results p{
-margin:10px 0px 7px 5px;
-}
-.ldp-poll-form{
-   padding-top:5px;
-   padding-bottom:5px;
-   padding-left:5px;
-}
-.ldp-poll-container{
-     /*   height:250px; */
-     width:272px; 
-     min-height:250px;
-  padding:5px;
-      background: #e5e5e5; /* Old browsers */
-/*		background: -moz-linear-gradient(top, #EEEEEE 0%, #C3CAD4 100%); /* FF3.6+ */
-/*		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#EEEEEE), color-stop(100%,#C3CAD4)); /* Chrome,Safari4+ */
-/*		background: -webkit-linear-gradient(top, #EEEEEE 0%,#C3CAD4 100%); /* Chrome10+,Safari5.1+ */
-/*		background: -o-linear-gradient(top, #EEEEEE 0%,#C3CAD4 100%); /* Opera11.10+ */
-/*		background: -ms-linear-gradient(top, #EEEEEE 0%,#C3CAD4 100%); /* IE10+ */
-/*		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EEEEEE', endColorstr='#C3CAD4',GradientType=0 ); /* IE6-9 */
-/*		background: linear-gradient(top, #EEEEEE 0%,#C3CAD4 100%); /* W3C */
-  /*border-radius: 4px 4px 4px 4px;*/
-    /*box-shadow: 0 1px 0 rgba(255, 255, 255, 0.8) inset, 0 -2px 0 rgba(0, 0, 0, 0.1) inset, 0 0 10px rgba(255, 255, 255, 0.5) inset, 0 0 0 1px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.2)*/;
 
+
+.ldp--poll-container {
+    background: #e5e5e5;
+    padding:10px;
+    width:300px;
+    margin-bottom:10px;
 }
+  .col-3 .left .ldp--poll-container, .col-2 .left .ldp--poll-container, .secnav_subsite .ldp--poll-container {width:160px;}
+
+.left .ldp--poll-container p, .middle .ldp--poll-container p, .right .ldp--poll-container p {float:left; clear:left;}
+
 #ldp-poll input#button{
-    margin-left: 5px;
-    padding:5px;
-    width:68px;
+  padding:5px;
+  min-width:68px;
+  clear:both;
+  margin:10px 0 0 0;
 }
-.results,.poll-back{
-color:#000000;
+
+.ldp--poll-container .results, .ldp--poll-container  .poll-back{
+  font-size: 87.5%;
+  float:left;
+  clear:both;
+  display:block;
+  margin:10px 0;
 }
+.ldp--poll input {float:left; clear:both;}
+.ldp--inputRadio {margin:5px 5px 5px 0;}
+.ldp--labelRadio {font-size:75%; margin:3px 0 0 0; float:left;}
+
+.ldp--poll input[type="submit"] {
+  margin:0;
+  padding:.5em 1em;
+  font-size:87.5%;
+  color:#fff;
+  background-color:#005a8b;
+  border:none;
+  cursor:pointer;
+  border:1px solid #e5e5e5;
+}
+.ldp--poll input[type="submit"]:hover, .ldp--forms input[type="submit"]:focus {
+  color:#005a8b;
+  background-color:#fff;
+  border:1px solid #005a8b;
+};
