@@ -61,21 +61,27 @@
 .ldp--poll-container {
     background: #e5e5e5;
     padding:10px;
-    width:300px; 
+    width:300px;
+    margin-bottom:10px;
 }
   .col-3 .left .ldp--poll-container, .col-2 .left .ldp--poll-container, .secnav_subsite .ldp--poll-container {width:160px;}
 
 .left .ldp--poll-container p, .middle .ldp--poll-container p, .right .ldp--poll-container p {float:left; clear:left;}
 
 #ldp-poll input#button{
-    padding:5px;
-    min-width:68px;
+  padding:5px;
+  min-width:68px;
   clear:both;
+  margin:10px 0 0 0;
 }
-.results,a.poll-back{
+
+.ldp--poll-container .results, .ldp--poll-container  .poll-back{
   font-size: 87.5%;
   float:left;
   clear:both;
   display:block;
-  margin-bottom:10px;
+  margin:10px 0;
 }
+.ldp--poll input {float:left; clear:both;}
+.ldp--inputRadio {margin:5px 5px 5px 0;}
+.ldp--labelRadio {font-size:75%; margin:3px 0 0 0; float:left;}
