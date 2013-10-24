@@ -1,24 +1,25 @@
 @media print {
-  #doodlelink {display:none;}
-  #sjsuhomelink {display:none;}
-  .subsitetitle {display:none;}  
-  .acc {display:none;}
-  .nav-main {display:none;}
-  #slider img {display:block !important; visibility: visible !important;}
-  .nivo-caption {display:none;}
-  .nivo-controlNav {display:none;}
-  .nivo-directionNav {display:none;}
-  .nivo-slice {display:none;}  
-  .secnav {display:none;}
-  .contact-info {display:none;}
-  #breadcrumb {display:none;}
-  #quickicons {display:none;}
-  #socialicons {display:none;}
-  .homepagequicklinks {display:none;}
-  #footer {display:none;}
+  #doodlelink,
+  #sjsuhomelink,
+  .btn_logo,
+  .subsitetitle,
+  .acc,
+  .nav-main,  
+  .nivo-caption,
+  .nivo-controlNav,
+  .nivo-directionNav,
+  .nivo-slice,
+  .nivo-main-image,  
+  .secnav,
+  .contact-info,
+  #breadcrumb,
+  #quickicons,
+  #socialicons,
+  .homepagequicklinks,
+  #footer {display:none !important;}
 
   #search_home {display:none;}
-  
+  #slider img {display:block !important; visibility: visible !important;}
 
   * {
     text-shadow: none !important;
