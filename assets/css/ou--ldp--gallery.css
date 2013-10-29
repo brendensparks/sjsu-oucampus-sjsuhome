@@ -3,6 +3,9 @@
   list-style: none;
   *zoom: 1;
 }
+/* additional code to override specificity in styles-em.css */
+.left .ldp--thumbnails, .middle .ldp--thumbnails, .right .ldp--thumbnails {margin:0 0 0 -20px; padding:0;}
+
 .ldp--thumbnails:before,
 .ldp--thumbnails:after {
   display: table;
