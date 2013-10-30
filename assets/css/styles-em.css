@@ -3,7 +3,7 @@ Filename:		styles-em.css
 Purpose:		Structures templated pages, established default styles for common elements
 Created by:		Web Services
 Created:		10/19/11 13:26
-Last Modified:	10/23/13 15:25 (bds)
+Last Modified:	10/29/13 18:15 (cjo)
 ===========================================================================================*/
 
 @import url('/sjsuhome/assets/css/content-enhancements.css');
@@ -39,9 +39,8 @@ html{
 body {
 	width:100%;
 	height: 100%;
-	background-color:#0032a0;
+	background-color:#e2dacf;
 	background-repeat:repeat;
-	background-image:url('/sjsuhome/assets/images/bg-homecoming-16.png'); /*homecoming 101713 cjo*/
 	font:normal 1em/1em Georgia, "Times New Roman", Times, serif;
 	color:#333333;
 }
@@ -322,7 +321,7 @@ p a:focus {
 	float: left;
 	width:80.455em;
 	min-height:100%;
-	background:url(/sjsuhome/assets/images/bg-left-homecoming-03.png) top left no-repeat #fff;/*homecoming 101713 cjo*/
+	background:url(/sjsuhome/assets/images/bg-left.jpg) top left no-repeat #fff;/*homecoming 101713 cjo*/
 	padding-left:5.909em;
 	/*overflow: hidden;*/
 	overflow: visible;
@@ -336,18 +335,14 @@ p a:focus {
 	border: none; /* 2011-12-09 cjo */
 }
 
-/* 2012-02-10 cjo */
 #doodlelink {
 	position: absolute;
-	left:0; /* Controls doodle visibility cjo - left: 0em; */
+	left:-9999px; /* Controls doodle visibility cjo - left: 0em; */
 	top: 135px;
 	width: 30px;
 	height: 52em; 
 	border: none; 
 }
-/* END 2011-12-10 cjo */
-
-
 
 #top_home {
 	float: left;
