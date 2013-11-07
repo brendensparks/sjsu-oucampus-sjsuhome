@@ -273,3 +273,5 @@ color:#8e0000;
   background-color:#fff;
   border:1px solid #005a8b;
 };
+
+.ldp--forms span {display:block; margin-bottom:1em;}
