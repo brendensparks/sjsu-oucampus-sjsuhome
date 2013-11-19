@@ -3,7 +3,7 @@ Filename:		content-enhancements.css
 Purpose:		Provide layout or visual enhancements to page content for OUCampus users.
 Created by:		Web Services
 Created:		12/03/12
-Last Modified:	7/25/13 13:33 (brenden.sparks@sjsu.edu)
+Last Modified:	11/19/13 15:05 (brenden.sparks@sjsu.edu)
 ===========================================================================================*/
 
 /* @BUTTON
@@ -94,6 +94,13 @@ When added to a sidebar, given 180px width.
 		.box-highlight.red {border-color:#ba4532;}
 		.content_wrapper .box-highlight.red h3 {background-color:#ba4532;}
 
+
+/* @LISTS
+Classes to increase style options for ordered or unordered lists
+*/
+.lower-alpha {list-style-type:lower-alpha;}
+.upper-roman {list-style-type:upper-roman;}
+.bullet-circle {list-style-type:circle;}
 
 
 /* @NEWSLETTER
