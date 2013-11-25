@@ -7,6 +7,7 @@
 <!-- ALL STYLES -->
 <link rel="stylesheet" type="text/css" href="/sjsuhome/assets/css/styles-em.css" media="screen" />
 <link rel="stylesheet" type="text/css" href="/sjsuhome/assets/css/fontfix.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/sjsuhome/assets/css/content-enhancements.css" media="screen" />
 <link rel="stylesheet" type="text/css" href="/sjsuhome/assets/css/print.css" media="print" />
 
 <!-- IE COMPATIBILITY -->
