@@ -9,7 +9,7 @@
   margin: 0 0 18px;
 }
 .ldp--forms fieldset {
-padding: 0;
+padding: 0 0 22px;
 margin-bottom: 22px;
 border: 1px solid #e5e5e5;
 border-left: none;
@@ -20,7 +20,7 @@ border-right: none;
   display: block;
   width: 100%;
   padding: 0;
-  margin-bottom: -15px;
+  margin-bottom: 0;
   font-size: 19.5px;
   line-height: 36px;
   color: #333333;
