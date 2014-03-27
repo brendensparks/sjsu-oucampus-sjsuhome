@@ -3,12 +3,8 @@ Filename:		fontfix.css
 Purpose:		Typography overrides to main campus template file styles-em.css
 Created by:		Web Services
 Created:		01/08/13
-Last Modified:	01/30/14 11:11 (brenden.sparks@sjsu.edu)
+Last Modified:	02/20/14 10:37 (brenden.sparks@sjsu.edu)
 ===========================================================================================*/
-
-
-
-
 
 /* container overrides */
 
@@ -162,38 +158,63 @@ td li {font-size:100%;}
 .backtotop a span {color:#555;}
 
 /* search */
+/* "search-goog" is the class on the parent li element of the search box on the 404 page */
 
 	#search_home {padding-top:0;}
-	#search_home #q {font-size:14px;line-height:1;background:#fff;color:#000;font-family:Verdana, Geneva, sans-serif;border: 1px solid #005a8b;padding:2px 4px;margin:0;height:32px;-moz-box-shadow: 3px 3px 7px #eee;-webkit-box-shadow: 3px 3px 7px #eee;box-shadow: inset 2px 2px 3px #ddd;width:195px;}
+	#search_home #q, .search-goog #q {font-size:14px;line-height:1;background:#fff;color:#000;font-family:Verdana, Geneva, sans-serif;border: 1px solid #005a8b;padding:2px 4px;margin:0;height:32px;-moz-box-shadow: 3px 3px 7px #eee;-webkit-box-shadow: 3px 3px 7px #eee;box-shadow: inset 2px 2px 3px #ddd;width:195px;}
+	.search-goog #q {height:34px;}
+	/*additional declaration to match in-line css height of search button being added by the Google JS */
 	.btnSearch {display:block;float:left;width:42px;height:38px;background:url(/sjsuhome/assets/images/btnSearchBlueBox.jpg) no-repeat center;border:none;text-indent:-999em;background-color:#005a8b;cursor:pointer;padding:4px 12px;}
 	.buttonGo, .buttonGoSubsite {background-image:url(/sjsuhome/assets/images/btnSearchBlueBox.jpg)}
 
 	.v1 #home {margin-bottom:12px;}
 
-/* typeahead */ 
+/* typeahead */
+
+/* additions and modifications to typeahead css need to also be added to styles-search.css */
+
        .tt-hint {display:none;}
        .twitter-typeahead {float:left;}
        .tt-suggestion p {
          line-height:1;
-         padding:6px 12px;
+         padding:0;
          margin:0;
-		 color:#fff;
+		 background-color:#fff;
+		 color:#005a8b;
          font-family: Verdana,Geneva,sans-serif;
+         border-left-style:solid;
+         border-left-width:3px;
+         border-left-color:#fff;
         }
-        .tt-suggestion p a:link {color:#fff;}        
+    
         .tt-dropdown-menu {
         min-width:182px;
-        padding:6px 0;
+        padding:6px;
         margin-top:-1px;
         border:1px solid #005a8b;
-		background-color:#005a8b;
-		color:#fff;
+		background-color:#fff;
+		color:#005a8b;
 		z-index:110;}
-        .tt-is-under-cursor p {
+        
+		.tt-suggestion p a {
+			display:block;
+			padding:6px;
+		}
+
+		.tt-suggestion p a:link,
+		.tt-suggestion p a:visited {
 			color:#005a8b;
-			background-color:#fff;}
-			.tt-suggestion.tt-is-under-cursor p a:link {color:#005a8b;}
-			.tt-is-under-cursor p a:hover, .tt-suggestion p a:focus, .tt-suggestion p a:active {color:#005a8b;}
+			text-decoration:none;}    
+
+		.tt-is-under-cursor p {
+			color:#005a8b;
+			background-color:#fff;
+			border-left-color:#005a8b;}
+		
+
+			.tt-suggestion.tt-is-under-cursor p a:link {color:#005a8b; text-decoration:underline;}
+			#top_subsite .tt-suggestion p a:link {color: #005a8b;}				
+			.tt-is-under-cursor p a:hover, .tt-suggestion p a:focus, .tt-suggestion p a:active {color:#005a8b; text-decoration: underline;}
 
 /* this declaration required to compensate for IE7 z-index bug for typeahead */
 .ieZIndexHack {z-index:9990;} /* 2013-05-13 bds */
@@ -262,7 +283,7 @@ td li {font-size:100%;}
 
 	.qi {
 		padding: 0 0 0 30px;
-		background: url(/sjsuhome/assets/images/sjsu-icons-03.jpg) 0px 3px no-repeat;
+		background: url(/sjsuhome/assets/images/sjsu-icons-07.jpg) 0px 3px no-repeat;
 		margin:10px;
 		font-size:86.5%;
 	}
@@ -273,11 +294,13 @@ td li {font-size:100%;}
 	.smGv {background-position: 0px -63px;}
 
 	.smFa {background-position: 0px -96px;}
-	.smTw {background-position: 0px -128px;}
+	.smTw {background-position: 0px -128px;}	
 	.smLi {background-position: 0px -161px;}
 	.smPi {background-position: 0px -193px;}
-	.smYt {background-position: 0px -225px; }
-	.smRS {background-position: 0px -256px;}
+	.smYt {background-position: 0px -225px;}
+	.smGo {background-position: 0px -260px;}
+	.smIn {background-position: 0px -294px;}	
+	.smRS {background-position: 0px -329px;}
 
 	#quickicons a:link, #quickicons a:visited {text-decoration:none;}
 	#quickicons a:active, #quickicons a:hover, #quickicons a:focus {text-decoration:underline;}
@@ -559,6 +582,15 @@ p.alertsub{
 	
 /*--- change log ---*/
 /*--------------------
+02/20/14
+changed typeahead dropdown appearance to mitigate specificity & accessibility issues
+
+02/13/14
+additional typeahead link color specificity cleanup
+
+02/10/14
+additional typeahead link color specificity cleanup
+
 11/11/13
 cleaned up typeahead link color specificity
 
