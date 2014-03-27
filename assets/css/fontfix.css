@@ -3,7 +3,7 @@ Filename:		fontfix.css
 Purpose:		Typography overrides to main campus template file styles-em.css
 Created by:		Web Services
 Created:		01/08/13
-Last Modified:	10/04/13 16:03 (brenden.sparks@sjsu.edu)
+Last Modified:	01/30/14 11:11 (brenden.sparks@sjsu.edu)
 ===========================================================================================*/
 
 
@@ -180,6 +180,7 @@ td li {font-size:100%;}
 		 color:#fff;
          font-family: Verdana,Geneva,sans-serif;
         }
+        .tt-suggestion p a:link {color:#fff;}        
         .tt-dropdown-menu {
         min-width:182px;
         padding:6px 0;
@@ -191,6 +192,8 @@ td li {font-size:100%;}
         .tt-is-under-cursor p {
 			color:#005a8b;
 			background-color:#fff;}
+			.tt-suggestion.tt-is-under-cursor p a:link {color:#005a8b;}
+			.tt-is-under-cursor p a:hover, .tt-suggestion p a:focus, .tt-suggestion p a:active {color:#005a8b;}
 
 /* this declaration required to compensate for IE7 z-index bug for typeahead */
 .ieZIndexHack {z-index:9990;} /* 2013-05-13 bds */
@@ -556,6 +559,9 @@ p.alertsub{
 	
 /*--- change log ---*/
 /*--------------------
+11/11/13
+cleaned up typeahead link color specificity
+
 10/04/13
 made image backgrounds relative to support https protocol
 
