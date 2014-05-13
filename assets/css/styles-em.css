@@ -3,7 +3,7 @@ Filename:		styles-em.css
 Purpose:		Structures templated pages, established default styles for common elements
 Created by:		Web Services
 Created:		10/19/11 13:26
-Last Modified:	11/25/13 10:15 (bds)
+Last Modified:	04/28/14 21:15 (cjo)
 ===========================================================================================*/
 
 v1 @charset "utf-8";
@@ -37,8 +37,9 @@ html{
 body {
 	width:100%;
 	height: 100%;
-	background-color:#e2dacf;
-	background-repeat:repeat;
+	background:url(/sjsuhome/assets/images/bg-pattern-sjsu-02.png) top right no-repeat transparent; /*042714 cjo*/
+	background-color:#e6e6e0; /*042714 cjo*/
+	background-repeat:no-repeat; /*042714 cjo*/
 	font:normal 1em/1em Georgia, "Times New Roman", Times, serif;
 	color:#333333;
 }
@@ -319,7 +320,7 @@ p a:focus {
 	float: left;
 	width:80.455em;
 	min-height:100%;
-	background:url(/sjsuhome/assets/images/bg-left.jpg) top left no-repeat #fff;/*homecoming 101713 cjo*/
+	background:url(/sjsuhome/assets/images/bg-left-sjsu-02.png) top left no-repeat #fff;/*042714 cjo*/
 	padding-left:5.909em;
 	/*overflow: hidden;*/
 	overflow: visible;

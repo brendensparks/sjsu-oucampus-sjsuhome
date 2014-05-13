@@ -3,13 +3,13 @@ Filename:		fontfix.css
 Purpose:		Typography overrides to main campus template file styles-em.css
 Created by:		Web Services
 Created:		01/08/13
-Last Modified:	02/20/14 10:37 (brenden.sparks@sjsu.edu)
+Last Modified:	04/27/14 21:02 (christina.olivas@sjsu.edu)
 ===========================================================================================*/
 
 /* container overrides */
 
 	#bg {width:auto; padding-left:15px; background:none; overflow:auto;}
-	#container {padding-left:65px; width:895px; background-color:#fff;}
+	#container {padding-left:65px; width:895px; background-color:#fff; background:url(/sjsuhome/assets/images/bg-left-sjsu-02.png) top left no-repeat #fff;} /*042714 cjo*/
 	.sidebar {float:right; width:180px;} /* IE7 needs declared width */
 
 /* .content_wrapper configuration */
@@ -30,6 +30,7 @@ Last Modified:	02/20/14 10:37 (brenden.sparks@sjsu.edu)
 #content {width:865px; min-height:400px; padding-right:30px; padding-bottom:50px; float:left;}
 
 /* font overrides */
+	body {background:url(/sjsuhome/assets/images/bg-pattern-sjsu-02.png) top right no-repeat transparent; background-color:#e6e6e0; background-repeat:no-repeat;} /*042714 cjo*/
 	html, body {font-size:16px;}
 	html > body {font-family:Verdana,Geneva,sans-serif;}
 	p {padding-bottom:0; font-size:100%; font-family:Verdana, Geneva, sans-serif; color:#000; margin:0 0 10px 0;}
@@ -135,8 +136,8 @@ Last Modified:	02/20/14 10:37 (brenden.sparks@sjsu.edu)
 				
 /* site title */
 	#top_subsite, #top_home {width:865px; height:auto; border-bottom:none; padding:0;}
-	#top_subsite .left, #top_home .left {width:600px; height:auto; padding:21px 0 0; border-bottom:none;}
-	#top_subsite .right, #top_home .right {width:252px; height:auto; background:none; padding:12px 0; margin:0;}
+	#top_subsite .left, #top_home .left {width:600px; padding:21px 0 0; border-bottom:none;}
+	#top_subsite .right, #top_home .right {width:252px; height:auto; background:none; padding:19px 0; margin:0;}
 	#top_subsite .left h1 {height:auto; font-size:87.5%; margin-bottom:0; padding-top:0; letter-spacing:.2em; font-family:'AbsaraSansOT-bold',Verdana,Geneva,sans-serif;}
 	#top_subsite .left h1.subsite_name {color:#000;}
 	#top_subsite .left span {display:block; float:left; color:#555; letter-spacing:.2em; line-height:1.3 !important; font-size:68.75%;  font-family:'AbsaraSansOT-bold',Verdana,Geneva,sans-serif;}
@@ -144,8 +145,12 @@ Last Modified:	02/20/14 10:37 (brenden.sparks@sjsu.edu)
 #top_subsite .left span.subsite_enclosingunit_wrapped {clear:left;}
 	#top_home .left a {margin:0;}
 
-#top_home .left a.btn_logo:link, #top_home .left a.btn_logo:visited {width:471px; height:18px; background-image:url(/sjsuhome/assets/images/link-logo-04.png);}
-#top_home .left a.btn_logo:hover, #top_home .left a.btn_logo:active, #top_home .left a.btn_logo:focus {width:471px; height:18px; background-image:url(/sjsuhome/assets/images/link-logo-04.png); }
+
+#top_home .left a.btn_logo:link, #top_home .left a.btn_logo:visited {width:262px; height:42px; background-image:url(/sjsuhome/assets/images/link-logo-08.png); float:left;} /*042714 cjo*/
+
+#top_home .left a.btn_logo:hover, #top_home .left a.btn_logo:active, #top_home .left a.btn_logo:focus {width:262px; height:42px; background-image:url(/sjsuhome/assets/images/link-logo-08.png); } /*042714 cjo*/
+
+.brand-tagline { width:330px; height:35px; background-image:url(/sjsuhome/assets/images/tagline-sjsu-1.gif); text-indent:-9999px; float:left; border-left:1px solid #d0cecb; background-repeat:no-repeat; background-position:10px;} /*042714 cjo*/ 
 
 /* default table styles */
 
@@ -161,11 +166,11 @@ td li {font-size:100%;}
 /* "search-goog" is the class on the parent li element of the search box on the 404 page */
 
 	#search_home {padding-top:0;}
-	#search_home #q, .search-goog #q {font-size:14px;line-height:1;background:#fff;color:#000;font-family:Verdana, Geneva, sans-serif;border: 1px solid #005a8b;padding:2px 4px;margin:0;height:32px;-moz-box-shadow: 3px 3px 7px #eee;-webkit-box-shadow: 3px 3px 7px #eee;box-shadow: inset 2px 2px 3px #ddd;width:195px;}
+	#search_home #q, .search-goog #q {font-size:14px;line-height:1;background:#fff;color:#000;font-family:Verdana, Geneva, sans-serif;border: 1px solid #dcdcdc;padding:2px 4px;margin:0;height:32px;-moz-box-shadow: 3px 3px 7px #eee;-webkit-box-shadow: 3px 3px 7px #eee;box-shadow: inset 2px 2px 3px #ddd;width:195px;} /*042714 cjo*/
 	.search-goog #q {height:34px;}
 	/*additional declaration to match in-line css height of search button being added by the Google JS */
-	.btnSearch {display:block;float:left;width:42px;height:38px;background:url(/sjsuhome/assets/images/btnSearchBlueBox.jpg) no-repeat center;border:none;text-indent:-999em;background-color:#005a8b;cursor:pointer;padding:4px 12px;}
-	.buttonGo, .buttonGoSubsite {background-image:url(/sjsuhome/assets/images/btnSearchBlueBox.jpg)}
+	.btnSearch {display:block;float:left;width:42px;height:38px;background:url(/sjsuhome/assets/images/btnSearchGrayBox.png) no-repeat center;border:none;text-indent:-999em;background-color:#dcdcdc;cursor:pointer;padding:4px 12px;} /*042714 cjo*/
+	.buttonGo, .buttonGoSubsite {background-image:url(/sjsuhome/assets/images/btnSearchGrayBox.png)}  /*042714 cjo*/
 
 	.v1 #home {margin-bottom:12px;}
 
@@ -251,7 +256,7 @@ td li {font-size:100%;}
 /* main nav on homepage and top-level pages */
 
 	.v1 #homenav {padding-bottom:2px; border-bottom:1px solid #e5e5e5; margin-bottom:10px;}
-	nav ul#homenav {margin:0; width:865px; border-top:1px solid #e5e5e5; font-size:100%;}
+	nav ul#homenav {margin:0; width:865px; border-top:1px solid #c1c1c1; font-size:100%;}
 	nav ul#homenav li {margin-bottom:12px;}
 		nav ul#homenav li ul li {margin-bottom:0;}
 	nav ul#homenav li .sub {top:36px; font-size:87.5%;}
@@ -289,18 +294,19 @@ td li {font-size:100%;}
 	}
 
 
-	.smMy {background-position: 0px 2px ;}
-	.smAth {background-position: 0px -31px;}
-	.smGv {background-position: 0px -63px;}
+	.smMy {background-position: 0 2px ;}	
+	.smAth {background-position: 0 -31px;}
+	.smGv {background-position: 0 -63px;}
 
-	.smFa {background-position: 0px -96px;}
-	.smTw {background-position: 0px -128px;}	
-	.smLi {background-position: 0px -161px;}
-	.smPi {background-position: 0px -193px;}
-	.smYt {background-position: 0px -225px;}
-	.smGo {background-position: 0px -260px;}
-	.smIn {background-position: 0px -294px;}	
-	.smRS {background-position: 0px -329px;}
+	.smFa {background-position: 0 -96px;}
+	.smTw {background-position: 0 -128px;}	
+	.smLi {background-position: 0 -161px;}
+	.smPi {background-position: 0 -193px;}
+	.smYt {background-position: 0 -225px;}
+	.smGo {background-position: 0 -260px;}
+	.smIn {background-position: 0 -294px;}	
+	.smRS {background-position: 0 -329px;}
+	.smCa {background-position: 0 -363px;}
 
 	#quickicons a:link, #quickicons a:visited {text-decoration:none;}
 	#quickicons a:active, #quickicons a:hover, #quickicons a:focus {text-decoration:underline;}
@@ -312,8 +318,7 @@ td li {font-size:100%;}
 	width:180px;
 	clear:right;
 	float:right;
-	padding:0;
-	border-bottom:1px solid #e5e5e5;
+	padding:0;	
 	font-family:Verdana, Geneva,sans-serif;}
 	#socialicons ul {list-style:none; margin:0; padding:0;}
 	#socialicons a:link, #socialicons a:visited {text-decoration:none;}
@@ -427,7 +432,7 @@ td li {font-size:100%;}
 	.banner-static {width:660px; height:340px; position:relative; float:left; margin:14px 0 20px; z-index:11}
 	.banner_image {width:660px; height:340px; padding:0;}
 	.banner_caption {min-height:87px; height:auto; width:600px; padding-right:40px; padding-bottom:0px; top:auto; left:auto; bottom:0;}
-	.banner_caption h3 {color:#fff; line-height:1; font-size:100%; background:none; text-transform:none;}
+	.banner_caption h3 {color:#fff; line-height:1; font-size:100%; background:none; text-transform:none; margin-bottom:0;}
 		.banner_caption p {margin-bottom:0; line-height:1.5; font-size:75%;}
 	.banner-empty {width:660px; height:14px;}
 /* calendar */
@@ -505,7 +510,7 @@ td li {font-size:100%;}
 		.footNav {float:left;}
 
 		.footInfo {clear:left; margin-top:18px;}
-		.footAddress {background:url(/sjsuhome/assets/images/btn_logo_footer_only.gif) no-repeat left top;}
+		.footAddress {background:url(/sjsuhome/assets/images/btn_logo_footer_02_17.png) no-repeat left top;} /*042714 cjo*/
 	#footer_bg {width:auto; height:auto; background:none;}
 	
 /* misc */
@@ -536,7 +541,7 @@ td li {font-size:100%;}
 		.footList ul {list-style:none; padding:0; margin:5px 0 0 0;}
 		.footList li {font-size:75%; line-height:1.2; font-family:Verdana,Geneva,sans-serif; padding-bottom:5px;}
 
-	.footAddress {float:right; max-width: 190px; min-width:150px; margin-top:12px; padding-top:67px;}
+	.footAddress {float:right; max-width: 190px; min-width:150px; margin-top:15px; padding-top:48px;} /*042714 cjo*/
 		.footAddress p, #directedit {padding:0; margin:0; line-height:1.2; font-size:68.75%; font-family:Verdana,Geneva,sans-serif; padding-bottom:3px;}
 		.footAddress p.copyright {margin: 0; line-height:0; padding:0;}
 
@@ -582,6 +587,9 @@ p.alertsub{
 	
 /*--- change log ---*/
 /*--------------------
+04/14/14
+reduced oversized bottom margin on .banner-caption h3 element
+
 02/20/14
 changed typeahead dropdown appearance to mitigate specificity & accessibility issues
 

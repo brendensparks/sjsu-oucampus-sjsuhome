@@ -30,6 +30,7 @@
 <li><a href="http://www.spartanbookstore.com/">Bookstore</a></li>
 <li><a href="{{f:1453005}}">Budget Central</a></li>
 <li><a href="http://www.sjsu.edu/calendars/index.html">Calendars</a></li>
+<li><a href="https://sjsu.instructure.com/">Canvas</a></li>
 <li><a href="http://www.sjsu.edu/employment">Careers &amp; Jobs</a></li>
 <li><a href="http://library.sjsu.edu/"> King Library</a></li>
 <li><a href="http://www.sjsu.edu/parkingtransportationmaps/index.html">Parking &amp; Maps</a></li>
