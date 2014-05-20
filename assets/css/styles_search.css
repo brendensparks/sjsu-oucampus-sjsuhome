@@ -1,21 +1,8 @@
-/* @group Web Font */
-@font-face {
-    font-family: 'AbsaraSansOT-bold';
-    src: url('/sjsuhome/assets/fonts/AbsaraSansOT-Bold.eot');
-    src: url('/sjsuhome/assets/fonts/AbsaraSansOT-Bold.eot?#iefix') format('embedded-opentype'),
-         url('/sjsuhome/assets/fonts/AbsaraSansOT-Bold.woff') format('woff'),
-         url('/sjsuhome/assets/fonts/AbsaraSansOT-Bold.ttf') format('truetype'),
-         url('/sjsuhome/assets/fonts/AbsaraSansOT-Bold.svg#') format('svg');
-    font-weight: bold;
-    font-style: normal;
-}
-/* @end */
-
-
 html, body {
 	width:100%;
 	min-height: 100%;
-	background:#e2dacf;
+	background:url(/sjsuhome/assets/images/bg-pattern-sjsu-02.png) top right no-repeat #e6e6e0;
+	margin:0;
 }
 
 #bg {
@@ -23,7 +10,7 @@ html, body {
 	min-height:100%;
 	margin:0 auto;
 	padding-left:15px;
-	background:url(/sjsuhome/assets/images/bg_mid.png) top left repeat-y;
+	background:none;
 	/*overflow: hidden;*/
 	overflow: visible;
 	display: table;
@@ -34,7 +21,7 @@ html, body {
 	float: left;
 	width:895px;
 	min-height:700px;
-	background:url(/sjsuhome/assets/images/bg_left.jpg) top left no-repeat #fff;
+	background:url(/sjsuhome/assets/images/bg-left-sjsu-02.png) top left no-repeat #fff;
 	padding-left:65px;
 	/*overflow: hidden;*/
 	overflow: visible;
@@ -47,54 +34,6 @@ html, body {
 	width: 30px;
 	height: 150px;
 }
-
-#top_home {
-float: left;
-width:895px;
-height:40px;
-}
-#top_home .left {
-float: left;
-width:660px;
-height:39px;
-border-bottom:1px solid #4d4d4d;
-}
-#top_home .left a {
-margin-top: 13px;
-font-family: 'AbsaraSansOT-bold';
-color: #136ea3;
-height: 10px;
-text-transform: uppercase;
-font-size: 1.3em;
-letter-spacing: .2em;
-}
-#top_home .left a:hover,
-#top_home .left a:active,
-#top_home .left a:focus{
-color: #efa92f;
-}
-#top_home .left a.btn_logo:link, 
-#top_home .left a.btn_logo:visited {
-width:273px;
-height:17px;
-background:url(/sjsuhome/assets/images/link_logo.gif) top left no-repeat transparent;
-display:block;
-text-indent:-9999px;
-/*font-size:0px;*/
-line-height:0px;
-overflow:hidden;
-}
-#top_home .left a.btn_logo:hover, 
-#top_home .left a.btn_logo:active,
-#top_home .left a.btn_logo:focus {
-background:url(/sjsuhome/assets/images/link_logo.gif) bottom left no-repeat transparent;
-}
-#top_home .right {
-width:212px;
-background:url(/sjsuhome/assets/images/bg_search.png) no-repeat left top;
-height:40px;
-}
-
 
 .searchfeedbacktext {
 	display:block;
@@ -151,7 +90,9 @@ button[name="btnG"] {
 
 /* typeahead dropdown box styling" */
 .tt-hint {display:none;}
+
 .twitter-typeahead {float:left;}
+
 .tt-suggestion p {
  line-height:1;
  padding:0;
