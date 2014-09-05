@@ -48,5 +48,5 @@
 <p><a href="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=San+Jose+State+University,+San+Jose,+CA&amp;sll=37.0625,-95.677068&amp;sspn=51.04407,85.341797&amp;ie=UTF8&amp;hq=San+Jose+State+University&amp;hnear=San+Jose+State+University,+San+Jose,+Santa+Clara,+California+95112&amp;z=15&amp;iwloc=A">One Washington Square,<br /> San Jose, CA 95192</a></p>
 <p>408-924-1000</p>
 <span id="directedit">&nbsp;</span>
-<p class="copyright">©2013</p>
+<p class="copyright">©2014</p>
 </div>
