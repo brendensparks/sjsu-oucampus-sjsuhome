@@ -12,14 +12,14 @@
   .nivo-main-image,  
   .secnav,
   .contact-info,
-  #breadcrumb,
   #quickicons,
   #socialicons,
   .homepagequicklinks,
+  #quicklinks,
+  #slider,
   #footer {display:none !important;}
 
-  #search_home {display:none;}
-  #slider img {display:block !important; visibility: visible !important;}
+  #search_home {display:none;}  
 
   * {
     text-shadow: none !important;
@@ -38,9 +38,7 @@
   a:visited {
     text-decoration: underline;
   }
-  a[href]:after {
-    content: " (" attr(href) ")";
-  }
+
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
