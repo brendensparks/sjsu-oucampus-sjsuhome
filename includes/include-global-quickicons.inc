@@ -1,1 +1,0 @@
-<a class="tooltip btn_my" title="MySJSU" href="http://my.sjsu.edu/">MySJSU</a> <a class="tooltip btn_helmet" title="Spartan Athletics" href="http://www.sjsuspartans.com/">Spartan Athletics</a> <a class="tooltip btn_heart" title="Give to SJSU" href="http://www.sjsu.edu/giving/">Give to SJSU</a>
