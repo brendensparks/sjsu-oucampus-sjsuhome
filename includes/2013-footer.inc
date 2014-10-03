@@ -26,20 +26,20 @@
 <h3>Quick Links</h3>
 <ul>
 <li><a href="http://www.sjsu.edu/siteindex">A-Z Index</a></li>
-<li><a href="http://www.sjsu.edu/discover/academics/index.html">Academics</a></li>
+<li><a href="http://www.sjsu.edu/discover/academics/">Academics</a></li>
 <li><a href="http://www.spartanbookstore.com/">Bookstore</a></li>
-<li><a href="{{f:1453005}}">Budget Central</a></li>
-<li><a href="http://www.sjsu.edu/calendars/index.html">Calendars</a></li>
+<li><a href="http://www.sjsu.edu/adminfinance/about/budget_central/">Budget Central</a></li>
+<li><a href="http://www.sjsu.edu/calendars/">Calendars</a></li>
 <li><a href="https://sjsu.instructure.com/">Canvas</a></li>
 <li><a href="http://www.sjsu.edu/employment">Careers &amp; Jobs</a></li>
 <li><a href="http://library.sjsu.edu/"> King Library</a></li>
-<li><a href="http://www.sjsu.edu/parkingtransportationmaps/index.html">Parking &amp; Maps</a></li>
+<li><a href="http://www.sjsu.edu/parkingtransportationmaps/">Parking &amp; Maps</a></li>
 </ul>
 </div>
 <div class="footList">
 <h3>Contact us</h3>
 <ul>
-<li><a href="http://www.sjsu.edu/contact/index.html">Contact Form</a></li>
+<li><a href="http://www.sjsu.edu/contact/">Contact Form</a></li>
 <li><a href="http://directory.sjsu.edu">Directory</a></li>
 <li><a href="http://go.sjsu.edu/redesign-feedback2" target="_blank">Report A Web Problem</a></li>
 </ul>

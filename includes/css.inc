@@ -1,22 +1,17 @@
 <!-- LIGHTBOX -->
-<link rel="stylesheet" type="text/css" href="/sjsuhome/assets/css/jquery.lightbox-0.5.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/_resources/css/jquery.lightbox-0.5.css" media="screen" />
 
 <!-- NIVO SLIDER -->
-<link rel="stylesheet" type="text/css" href="/sjsuhome/assets/css/nivo-slider-em.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/_resources/css/nivo-slider-em.css" media="screen" />
 
 <!-- ALL STYLES -->
-<link rel="stylesheet" type="text/css" href="/sjsuhome/assets/css/styles-em.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="/sjsuhome/assets/css/fontfix.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="/sjsuhome/assets/css/content-enhancements.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="/sjsuhome/assets/css/print.css" media="print" />
+<link rel="stylesheet" type="text/css" href="/_resources/css/styles-em.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/_resources/css/fontfix.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/_resources/css/content-enhancements.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/_resources/css/print.css" media="print" />
 
 <!-- IE COMPATIBILITY -->
 <!--[if lt IE 9]>
-<link rel="stylesheet" href="/sjsuhome/assets/css/styles-ie.css" />
-<script src="/sjsuhome/assets/js/html5-min.js"></script>
+<link rel="stylesheet" href="/_resources/css/styles-ie.css" />
+<script src="/_resources/js/html5-min.js"></script>
 <![endif]-->
-
-<!--[if lte IE 6]>
-<link rel="stylesheet" href="/sjsuhome/assets/css/updateie6.css" type="text/css" />
-<![endif]-->
-
