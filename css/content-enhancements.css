@@ -3,13 +3,14 @@ Filename:		content-enhancements.css
 Purpose:		Provide layout or visual enhancements to page content for OUCampus users.
 Created by:		Web Services
 Created:		12/03/12
-Last Modified:	04/25/14 10:15 (brenden.sparks@sjsu.edu)
+Last Modified:	03/27/15 13:56 (brenden.sparks@sjsu.edu)
 ===========================================================================================*/
 
 /* @BUTTON
 When used on an <a> element, uses gradients to create a button.
 */
 .btn-basic {
+	display:block;
 	text-decoration:none;
 	border:1px solid #006faa;
 	-webkit-border-radius:6px;
@@ -53,13 +54,13 @@ p a.btn-basic:hover, p a.btn-basic:focus {text-decoration:none; color:#fff;}
 .btn-grey {
 	color:#000;
 	border-color:#444;
-	background-color: #333;
-	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #777), color-stop(100%, #333));
-	background-image: -webkit-linear-gradient(top, #777, #333);
-	background-image: -moz-linear-gradient(top, #777, #333);
-	background-image: -ms-linear-gradient(top, #777, #333);
-	background-image: -o-linear-gradient(top, #777, #333);
-	background-image: linear-gradient(top, #777, #333);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#777, endColorstr=#333);}
+	background-color: #777;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #aaa), color-stop(100%, #777));
+	background-image: -webkit-linear-gradient(top, #aaa, #777);
+	background-image: -moz-linear-gradient(top, #aaa, #777);
+	background-image: -ms-linear-gradient(top, #aaa, #777);
+	background-image: -o-linear-gradient(top, #aaa, #777);
+	background-image: linear-gradient(top, #aaa, #777);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#aaa, endColorstr=#777);}
 
 .btn-grey:hover {
 	color:#000;
