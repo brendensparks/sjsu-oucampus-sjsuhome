@@ -1,0 +1,344 @@
+/*==========================================================================================
+Filename:		content-enhancements.css
+Purpose:		Provide layout or visual enhancements to page content for OUCampus users.
+Created by:		Web Services
+Created:		12/03/12
+Last Modified:	03/27/15 13:56 (brenden.sparks@sjsu.edu)
+===========================================================================================*/
+
+/* @BUTTON
+When used on an <a> element, uses gradients to create a button.
+*/
+.btn-basic {
+	display:block;
+	text-decoration:none;
+	border:1px solid #006faa;
+	-webkit-border-radius:6px;
+	   -moz-border-radius:6px;
+	        border-radius:6px;
+	font-family:verdana, sans-serif;
+	padding: 10px 10px 10px 10px;
+	text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+	font-weight:bold;
+	text-align:center;
+	color:#fff;
+	background-color: #008BD6;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #008BD6), color-stop(100%, #005A8B));
+	background-image: -webkit-linear-gradient(top, #008BD6, #005A8B);
+	background-image: -moz-linear-gradient(top, #008BD6, #005A8B);
+	background-image: -ms-linear-gradient(top, #008BD6, #005A8B);
+	background-image: -o-linear-gradient(top, #008BD6, #005A8B);
+	background-image: linear-gradient(top, #008BD6, #005A8B);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#008BD6, endColorstr=#005A8B);
+}
+
+.btn-basic:hover {
+	color:#fff;
+	text-decoration:none;
+	border:1px solid #004970;
+	background-color: #005A8B;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#005A8B), color-stop(100%, #003958));
+	background-image: -webkit-linear-gradient(top, #005A8B, #003958);
+	background-image:    -moz-linear-gradient(top, #005A8B, #003958);
+	background-image:     -ms-linear-gradient(top, #005A8B, #003958);
+	background-image:      -o-linear-gradient(top, #005A8B, #003958);
+	background-image: linear-gradient(top, #005A8B, #003958);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#005A8B, endColorstr=#003958);
+}
+.btn-basic:visited, .btn-basic:active {color:#fff; text-decoration:none;}
+/* additional code for specificity workarounds */
+.left a.btn-basic, .left a.btn-basic:visited, .right a.btn-basic, .right a.btn-basic:visited, .right a.btn-basic:hover, .right a.btn-basic:focus, .left a.btn-basic:hover, .left a.btn-basic:focus, .right a.btn-basic:active, .left a.btn-basic:active {text-decoration:none; color:#fff; border:1px solid; padding: 10px;}
+p a.btn-basic:link, p a.btn-basic:visited {text-decoration:none; color:#fff;}
+p a.btn-basic:hover, p a.btn-basic:focus {text-decoration:none; color:#fff;}
+
+/* new button colors */
+
+.btn-grey {
+	color:#000;
+	border-color:#444;
+	background-color: #777;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #aaa), color-stop(100%, #777));
+	background-image: -webkit-linear-gradient(top, #aaa, #777);
+	background-image: -moz-linear-gradient(top, #aaa, #777);
+	background-image: -ms-linear-gradient(top, #aaa, #777);
+	background-image: -o-linear-gradient(top, #aaa, #777);
+	background-image: linear-gradient(top, #aaa, #777);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#aaa, endColorstr=#777);}
+
+.btn-grey:hover {
+	color:#000;
+	border-color:#444;
+	background-color: #777;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ccc), color-stop(100%, #777));
+	background-image: -webkit-linear-gradient(top, #ccc, #777);
+	background-image:    -moz-linear-gradient(top, #ccc, #777);
+	background-image:     -ms-linear-gradient(top, #ccc, #777);
+	background-image:      -o-linear-gradient(top, #ccc, #777);
+	background-image: linear-gradient(top, #ccc, #777);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ccc, endColorstr=#777);	
+}
+
+/* Specificity override */
+p .btn-grey, p .btn-grey:hover {color:#000;}
+
+
+/*
+
+.btn-grey {
+	border-color:#%%%%%%;
+	background-color: #^^^^^^;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #^^^^^^), color-stop(100%, #******));
+	background-image: -webkit-linear-gradient(top, #^^^^^^, #******);
+	background-image: -moz-linear-gradient(top, #^^^^^^, #******);
+	background-image: -ms-linear-gradient(top, #^^^^^^, #******);
+	background-image: -o-linear-gradient(top, #^^^^^^, #******);
+	background-image: linear-gradient(top, #^^^^^^, #******);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#^^^^^^, endColorstr=#******);
+
+.btn-grey:hover {
+	border-color:#&&&&&&;
+	background-color: #******;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#******), color-stop(100%, #++++++));
+	background-image: -webkit-linear-gradient(top, #******, #++++++);
+	background-image:    -moz-linear-gradient(top, #******, #++++++);
+	background-image:     -ms-linear-gradient(top, #******, #++++++);
+	background-image:      -o-linear-gradient(top, #******, #++++++);
+	background-image: linear-gradient(top, #******, #++++++);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#******, endColorstr=#++++++);	
+}
+
+
+*/
+
+
+
+/* @BOX
+Used on a containing <div> to create a thinly-bordered box. H3 elements are highlighted. 
+When added to a sidebar, given 180px width.
+.content_wrapper added for extra specificity where necessary
+*/
+.box-highlight {border:1px solid #686869;}
+	.secnav_subsite .box-highlight, .content_wrapper .left .box-highlight {width:178px;}
+	.content_wrapper .right .l .box-highlight, .content_wrapper .right .r .box-highlight {width:318px;}
+	/* Additional variations can be added to set a width on the box based on template location ( Check v# in styles.css ) */
+	.content_wrapper .box-highlight h3 {background-color:#686869; color:#fff; padding:5px; margin-bottom:0; font-size:120%; text-transform:none;}
+	.box-highlight h4 {padding:10px; margin:0; font-size:100%; font-weight:bold;}
+	.box-highlight h5 {padding:10px 10px 5px 10px; margin:0; font-weight:bold;}
+	.box-highlight ul {list-style-type:none; padding:0;}
+	.box-highlight li {padding:10px; font-size:120%;}
+	.box-highlight p {padding:10px; font-size:120%;}
+		.box-highlight.red {border-color:#ba4532;}
+		.content_wrapper .box-highlight.red h3 {background-color:#ba4532;}
+
+
+/* @LISTS
+Classes to increase style options for ordered or unordered lists
+*/
+.lower-alpha {list-style-type:lower-alpha;}
+.upper-roman {list-style-type:upper-roman;}
+.bullet-circle {list-style-type:circle;}
+
+
+/* @NEWSLETTER
+Some unique style options to add to page elements to help create a OU Campus-based newsletter similar to
+Admin & Finance
+*/
+.boxNews {float:left;}
+.halfwidth {width:315px; margin:0 15px 15px 0;}
+
+/* @SUBTITLE
+A unique modification to a page parameter to allow a <span> in h1.pagetitle to act as a subtitle
+*/
+
+.pagetitle .subtitle {font-size:70%; color:#000; padding:2px 0 2px 10px; margin-left:5px; border-left:1px solid #ccc; }
+
+/* @ICONS
+System status icon sprite
+*/
+.systemStatusBar {
+width:180px;
+float:left;
+padding-bottom:3px;
+position:relative;
+}
+
+.systemStatusName, .systemStatusDesc {
+width:142px;
+border-color:#000;
+border-width:0;
+border-style:solid;
+border-left-width:3px;	
+margin:0;
+}
+.systemStatusName {
+line-height:1.2;
+padding:3px 0 0 35px;
+}
+.systemStatusDesc {
+line-height:1.2;
+font-size:75%;
+padding:0 0 3px 35px;
+font-style: italic;
+}
+
+.systemStatusIcon {
+position:absolute;
+height:36px;
+width:36px;
+left:-2px;
+top:0;
+background-image:url(/sjsuhome/assets/images/icon-system-sprite.png);
+background-repeat: no-repeat;
+}
+
+.systemStatusBar.operational .systemStatusName, 
+.systemStatusBar.operational .systemStatusDesc {
+border-color:#2fcc66;
+}
+.systemStatusBar.operational .systemStatusIcon {
+background-position: right 2px;
+}
+
+.systemStatusBar.degraded_performance .systemStatusName, 
+.systemStatusBar.degraded_performance .systemStatusDesc {
+border-color:#f1c40f;
+}
+.systemStatusBar.degraded_performance .systemStatusIcon {
+background-position: right -36px;
+}
+
+.systemStatusBar.partial_outage .systemStatusName,
+.systemStatusBar.partial_outage .systemStatusDesc {
+border-color:#e67e22;
+}
+.systemStatusBar.partial_outage .systemStatusIcon {
+background-position: right -72px;
+}
+
+.systemStatusBar.major_outage .systemStatusName,
+.systemStatusBar.major_outage .systemStatusDesc {
+border-color:#b30000;
+}
+.systemStatusBar.major_outage .systemStatusIcon {
+background-position: right -108px;
+}
+
+.systemStatusBar.alert .systemStatusName,
+.systemStatusBar.alert .systemStatusDesc {
+border-color:#005a8b;
+}
+.systemStatusBar.alert .systemStatusIcon {
+background-position: right -144px;
+}
+
+/* System Status Icon specificity overrides
+*/
+
+.left .systemStatusName, .left .systemStatusDesc {
+margin:0;
+line-height:1.2;
+}
+
+.left .systemStatusName {
+padding:3px 0 0 35px;
+}
+
+.left .systemStatusDesc {
+font-size: 75%;
+padding:0 0 3px 35px;
+}
+
+/* @TABLE
+Styling to support the sortable <table> javascript plugin
+*/
+table[data-sortable] {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+table[data-sortable] th {
+	vertical-align:top;
+}
+
+table[data-sortable] th, table[data-sortable] td {
+  text-align: left;  
+}
+table[data-sortable] th:not([data-sortable="false"]) {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-touch-callout: none;
+  cursor: pointer;
+text-decoration: underline;
+color:#005a8b;  
+}
+
+table[data-sortable] th:not([data-sortable="false"]):after {
+  content: "";
+  visibility: visible;
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  margin:0 1px 2px 4px;
+  background-image:url(/sjsuhome/assets/images/sprite-table-sort-arrows.png);
+  background-position:0 0px;
+  background-repeat: no-repeat;
+}
+
+table[data-sortable] th[data-sorted-direction="ascending"]:after {
+	background-position:0 -10px;
+}
+
+table[data-sortable] th[data-sorted-direction="descending"]:after {
+	background-position:0 -20px;
+
+}
+
+table[data-sortable].alternatecolors th {
+	color:#fff;
+}
+
+/* additional classes that modify table appearance */
+.table-striping--basic th {
+  background-color:#dedede;
+}
+
+.table-striping--basic tr:nth-child(odd) {
+	background-color:#eeeeee;
+}
+
+.table-spacing--comfortable th,
+.table-spacing--comfortable td {
+	padding:10px;
+}
+.table-spacing--comfortable tr {
+	line-height: 1.5;
+}
+
+.table-spacing--cozy th {
+	padding:8px;
+}
+.table-spacing--cozy td {
+	padding:4px;
+}
+.table-spacing--cozy tr {
+	line-height: 1.25;
+}
+
+.table-spacing--compact th {
+	padding:4px;
+}
+.table-spacing--compact td {
+	padding:2px;
+}
+.table-spacing--compact tr {
+	line-height: 1;
+}
+
+.table-font-size--small th {
+	font-size:87.5%;
+}
+.table-font-size--small td {
+	font-size:75%;
+}
+
+.table-font-size--large th,
+.table-font-size--large td {
+	font-size:100%;
+}
