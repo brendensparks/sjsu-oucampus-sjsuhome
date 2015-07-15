@@ -50,7 +50,7 @@ Last Modified:	05/22/15 13:09 (brenden.sparks@sjsu.edu)
 
 
 	.left h1, .middle h1, .right h1 {font-size:175%; margin:0 0 5px 0; padding:0; line-height:1.25; font-style:normal; color:#000; font-weight:bold; font-family: Georgia, Times, "Times New Roman", serif;}
-	.left h2, .middle h1, .right h2 {font-size:150%; margin:0 0 5px 0; padding:0; line-height:1.25; font-style:normal; color:#000; font-weight:bold; font-family: Georgia, Times, "Times New Roman", serif;}
+	.left h2, .middle h2, .right h2 {font-size:150%; margin:0 0 5px 0; padding:0; line-height:1.25; font-style:normal; color:#000; font-weight:bold; font-family: Georgia, Times, "Times New Roman", serif;}
 	#content .left h3, #content .middle h3, #content .right h3 {font-size:125%; margin:0 0 5px 0; padding:0; line-height:1.25; font-style:normal; color:#000; font-weight:bold; font-family: Georgia, Times, "Times New Roman", serif; text-transform:none;}
 		#content .banner-static .banner_caption h3 {color:#fff;}
 	.left h3 a, .middle h3 a, .right h3 a {font-family: Georgia, Times, "Times New Roman", serif; text-transform:none;}
