@@ -4,7 +4,7 @@ Filename:		styles-em.css
 Purpose:		Structures templated pages, established default styles for common elements
 Created by:		Web Services
 Created:		10/19/11 13:26
-Last Modified:	12/22/15 09:45 (bds)
+Last Modified:	03/18/16 12:30 (bds)
 ===========================================================================================*/
 
 @font-face {
@@ -2711,7 +2711,6 @@ a.profile_col:hover,a.profile_col:active,a.profile_col:focus {
 
 .rprofile_l {
 	width: 18.182em;
-	height: 2.727em;
 	padding: 0;
 	display: block;
 	float: left;
@@ -2722,7 +2721,6 @@ a.profile_col:hover,a.profile_col:active,a.profile_col:focus {
 
 .rprofile_r {
 	width: 27.273em;
-	height: 2.727em;
 	padding: 0;
 	display: block;
 	float: right;
@@ -2737,7 +2735,6 @@ a.profile_col:hover span.rprofile_l,a.profile_col:active span.rprofile_l,a.profi
 
 .rprofile {
 	width: 64em;
-	height: 7em;
 	padding: 0;
 	display: block;
 	float: right;

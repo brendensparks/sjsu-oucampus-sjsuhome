@@ -3,7 +3,7 @@ Filename:		fontfix.css
 Purpose:		Typography overrides to main campus template file styles-em.css
 Created by:		Web Services
 Created:		01/08/13
-Last Modified:	05/22/15 13:09 (brenden.sparks@sjsu.edu)
+Last Modified:	03/18/16 12:30 (brenden.sparks@sjsu.edu)
 ===========================================================================================*/
 /* container overrides */
 #bg {
@@ -1609,10 +1609,19 @@ a.profile_col,a.profile_col:visited {
 	height: inherit;
 }
 
+<<<<<<< HEAD
 .rprofile_r {
 	width: 225px;
 	height: inherit;
 }
+=======
+	a.profile_col,a.profile_col:visited {width:inherit;}
+		.left a.profile_col, .left a.profile_col:visited {border-bottom-width:0; padding-bottom:12px;}
+	.cphoto {width:66px; height:66px; border-bottom-width:0; border-right-width:0;}
+	.rprofile {width:576px;font-size:87.5%; border-bottom-width:0; padding-top:6px;}
+		.rprofile_l {width:340px;}
+		.rprofile_r {width:225px;}
+>>>>>>> refs/remotes/origin/master
 
 /* footer */
 #footer {
