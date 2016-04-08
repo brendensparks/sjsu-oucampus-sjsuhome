@@ -3,7 +3,7 @@ Filename:		content-enhancements.css
 Purpose:		Provide layout or visual enhancements to page content for OUCampus users.
 Created by:		Web Services
 Created:		12/03/12
-Last Modified:	03/27/15 13:56 (brenden.sparks@sjsu.edu)
+Last Modified:	04/07/16 17:30 (brenden.sparks@sjsu.edu)
 ===========================================================================================*/
 
 /* @BUTTON
@@ -43,7 +43,7 @@ When used on an <a> element, uses gradients to create a button.
 	background-image:      -o-linear-gradient(top, #005A8B, #003958);
 	background-image: linear-gradient(top, #005A8B, #003958);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#005A8B, endColorstr=#003958);
 }
-.btn-basic:visited, .btn-basic:active {color:#fff; text-decoration:none;}
+.btn-basic:link,.btn-basic:visited, .btn-basic:active {color:#fff; text-decoration:none;}
 /* additional code for specificity workarounds */
 .left a.btn-basic, .left a.btn-basic:visited, .right a.btn-basic, .right a.btn-basic:visited, .right a.btn-basic:hover, .right a.btn-basic:focus, .left a.btn-basic:hover, .left a.btn-basic:focus, .right a.btn-basic:active, .left a.btn-basic:active {text-decoration:none; color:#fff; border:1px solid; padding: 10px;}
 p a.btn-basic:link, p a.btn-basic:visited {text-decoration:none; color:#fff;}

@@ -4,7 +4,7 @@ Filename:		styles-em.css
 Purpose:		Structures templated pages, established default styles for common elements
 Created by:		Web Services
 Created:		10/19/11 13:26
-Last Modified:	03/18/16 12:30 (bds)
+Last Modified:	04/07/16 17:30 (bds)
 ===========================================================================================*/
 
 @font-face {
@@ -1988,15 +1988,6 @@ ul.sn2,.contact-info {
 	margin-top: 0;
 	color: #333;
 	list-style: none;
-}
-
-.contact-info a,.contact-info-noql a {
-	color: #333;
-}
-
-.contact-info a:hover,.contact-info-noql a:hover {
-	color: #000;
-	border-bottom: dotted 1px #333;
 }
 
 ul.home_ql {
